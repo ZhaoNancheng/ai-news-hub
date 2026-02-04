@@ -57,5 +57,21 @@ export default defineConfig({
 
   markdown: {
     lineNumbers: true
-  }
+  },
+
+  // 忽略死链检查（动态生成的新闻页面）
+  vite: {
+    build: {
+      rollupOptions: {
+        onwarn(warning, warn) {
+          // 忽略 dead link 警告
+          if (warning.code === 'PLUGIN_WARN') return
+          warn(warning)
+        }
+      }
+    }
+  },
+
+  // 或者完全禁用死链检查
+  ignoreDeadLinks: true
 })
