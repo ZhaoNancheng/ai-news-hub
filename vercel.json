@@ -1,6 +1,14 @@
 {
   "version": 2,
   "name": "ai-news-hub",
-  "buildCommand": "echo 'Static site - no build needed'",
-  "outputDirectory": "./"
+  "buildCommand": "npm run docs:build",
+  "outputDirectory": "docs/.vitepress/dist",
+  "installCommand": "npm install",
+  "framework": null,
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
 }
