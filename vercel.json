@@ -1,22 +1,6 @@
 {
   "version": 2,
   "name": "ai-news-hub",
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "@vercel/static"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/$1"
-    }
-  ],
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
-    }
-  ]
+  "buildCommand": "echo 'Static site - no build needed'",
+  "outputDirectory": "./"
 }
