@@ -1,155 +1,173 @@
-# AI News Hub 🤖
+# 🤖 AI News Hub
 
-一个现代化、响应式的 AI 新闻聚合静态网站，每日展示全球 AI 行业的最新动态。
+> 基于 VitePress 构建的现代化 AI 新闻聚合平台
 
-![License](https://img.shields.io/badge/license-MIT-blue)
-![Static](https://img.shields.io/badge/type-static-green)
-![Deploy](https://img.shields.io/badge/deploy-vercel-brightgreen)
+[![VitePress](https://img.shields.io/badge/VitePress-1.0-blue)](https://vitepress.dev/)
+[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+[![Deploy](https://img.shields.io/badge/deploy-vercel-brightgreen)](https://vercel.com)
 
 ## ✨ 特性
 
-- 🎨 现代化渐变设计，暗色主题
-- 📱 完全响应式，支持移动端
-- ⚡ 纯静态 HTML/CSS/JS，无需构建工具
-- 🚀 即开即用，一键部署
-- 🔄 动态内容加载
-- 🎯 分类筛选功能
-- 💫 流畅动画效果
-- ♿ 无障碍支持
+- 🎨 **现代化设计** - 基于 VitePress，美观且响应式
+- 📱 **完美适配** - 支持桌面、平板、手机等各种设备
+- ⚡ **极速加载** - 静态生成，秒级加载
+- 🔍 **全文搜索** - 内置搜索引擎，快速查找内容
+- 📝 **Markdown 驱动** - 内容用 Markdown 编写，易于维护
+- 🎯 **多维度分类** - 最新/热门/研究/工具四大板块
+- 🌙 **深色模式** - 自动适配系统主题
 
 ## 📁 项目结构
 
 ```
 ai-news-hub/
-├── index.html          # 主页面
-├── style.css           # 样式文件
-├── app.js              # JavaScript 逻辑
-├── package.json        # 项目信息
-├── vercel.json         # Vercel 配置
-└── README.md           # 项目说明
+├── docs/                      # 文档目录
+│   ├── .vitepress/            # VitePress 配置
+│   │   ├── config.mjs         # 站点配置
+│   │   └── dist/              # 构建输出
+│   ├── index.md               # 首页
+│   ├── latest.md              # 最新动态
+│   ├── trending.md            # 热门推荐
+│   ├── research.md            # 研究前沿
+│   └── tools.md               # 实用工具
+├── package.json               # 项目配置
+├── vercel.json                # Vercel 部署配置
+└── README.md                  # 项目说明
 ```
 
 ## 🚀 本地开发
 
-### 方法 1: Python（推荐）
+### 环境要求
+
+- Node.js >= 18
+- npm 或 pnpm
+
+### 安装依赖
 
 ```bash
-cd ai-news-hub
-python3 -m http.server 8000
+npm install
 ```
 
-访问 http://localhost:8000
-
-### 方法 2: Node.js
+### 启动开发服务器
 
 ```bash
-npx serve
+npm run docs:dev
 ```
 
-### 方法 3: 直接打开
+访问 http://localhost:5173
 
-直接在浏览器中打开 `index.html` 文件即可。
+### 构建生产版本
+
+```bash
+npm run docs:build
+```
+
+### 预览生产构建
+
+```bash
+npm run docs:preview
+```
 
 ## 📦 部署到 Vercel
 
 ### 一键部署
 
-点击下方按钮一键部署到 Vercel：
+点击下方按钮一键部署：
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/yourusername/ai-news-hub)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/ZhaoNancheng/ai-news-hub)
 
 ### 手动部署
 
 1. **Fork 本仓库到你的 GitHub 账号**
 
 2. **在 Vercel 导入项目**
-   - 登录 [Vercel Dashboard](https://vercel.com/dashboard)
+   - 访问 [Vercel Dashboard](https://vercel.com/dashboard)
    - 点击 "New Project"
    - 选择你 fork 的仓库
+   - Vercel 会自动检测 VitePress 配置
    - 点击 "Deploy"
 
 3. **完成！** 🎉
 
-   Vercel 会自动部署你的网站，并提供一个 `.vercel.app` 域名。
+   Vercel 会自动：
+   - 安装依赖 (`npm install`)
+   - 构建项目 (`npm run docs:build`)
+   - 部署到 CDN
+   - 提供一个 `.vercel.app` 域名
 
-## 🎨 自定义
+## 📝 内容管理
 
-### 修改新闻数据
+### 添加新闻
 
-编辑 `app.js` 中的 `sampleNews` 数组：
+编辑 `docs/` 目录下的 Markdown 文件，例如 `docs/latest.md`：
 
-```javascript
-const sampleNews = [
-    {
-        id: 1,
-        title: "你的新闻标题",
-        excerpt: "新闻摘要...",
-        category: "breaking", // breaking | research | industry | tools
-        source: "来源名称",
-        sourceUrl: "https://example.com",
-        date: "2026-02-04",
-        readTime: "5 分钟",
-        image: "https://example.com/image.jpg"
-    },
-    // 添加更多...
-];
+```markdown
+### 新闻标题
+
+新闻内容描述...
+
+**发布时间**：2026-02-04
+**阅读时长**：5 分钟
+**来源**：[链接](https://example.com)
+
+---
+
+<NewsList category="breaking" />
 ```
 
-### 修改样式
+### 修改导航
 
-编辑 `style.css` 中的 CSS 变量：
+编辑 `docs/.vitepress/config.mjs`：
 
-```css
-:root {
-    --primary-color: #2563eb;    /* 主色调 */
-    --secondary-color: #7c3aed;  /* 次要色调 */
-    --dark-bg: #0f172a;          /* 背景色 */
-    --card-bg: #1e293b;          /* 卡片背景 */
-    /* ... */
+```javascript
+themeConfig: {
+  nav: [
+    { text: '首页', link: '/' },
+    { text: '最新', link: '/latest' },
+    // 添加更多导航项...
+  ]
 }
 ```
 
-### 修改配色主题
+### 自定义样式
 
-项目支持轻松切换配色方案，只需修改 CSS 变量即可：
+在 Markdown 文件中使用 `<style>` 标签：
 
-- **蓝色主题**（默认）
-- **紫色主题**: `--primary-color: #7c3aed`
-- **绿色主题**: `--primary-color: #10b981`
-- **橙色主题**: `--primary-color: #f59e0b`
+```markdown
+<style>
+.my-class {
+  color: var(--vp-c-brand-1);
+}
+</style>
+```
 
-## 📊 数据来源
+## 🎨 技术栈
 
-新闻数据可以来自：
-
-1. **静态数据**（当前方式）
-   - 在 `app.js` 中手动维护
-
-2. **API 集成**
-   - News API
-   - 自建后端
-   - GitHub Actions 定期更新
-
-3. **RSS 聚合**
-   - 使用 rss2json 服务
-   - 或自建 RSS 解析服务
-
-## 🔧 技术栈
-
-- **HTML5** - 语义化标签
-- **CSS3** - 现代特性（Grid、Flexbox、渐变、动画）
-- **Vanilla JavaScript** - 无依赖，纯原生 JS
+- **VitePress** - 静态站点生成器
+- **Vue 3** - 前端框架
+- **Vite** - 构建工具
+- **Markdown** - 内容格式
 - **Vercel** - 部署平台
 
-## 📝 待办事项
+## 🌟 与原版对比
 
-- [ ] 添加搜索功能
-- [ ] 集成真实新闻 API
-- [ ] 添加暗/亮主题切换
-- [ ] 添加评论系统（如 Giscus）
-- [ ] 添加 RSS 订阅
-- [ ] SEO 优化
-- [ ] 添加 PWA 支持
+| 特性 | 原 HTML 版本 | VitePress 版本 |
+|------|-------------|---------------|
+| 加载速度 | 快 | ⚡ 极快 |
+| 内容管理 | 手动编辑 HTML | ✅ Markdown |
+| 搜索功能 | 需自己实现 | ✅ 内置 |
+| 响应式 | 手动 CSS | ✅ 自动适配 |
+| 深色模式 | 需自己实现 | ✅ 内置 |
+| 维护成本 | 中等 | ✅ 低 |
+
+## 📚 扩展功能
+
+可以轻松添加：
+
+- [ ] RSS 订阅
+- [ ] 评论系统 (Giscus)
+- [ ] 分析统计
+- [ ] 自动化内容抓取
+- [ ] 多语言支持
 
 ## 🤝 贡献
 
@@ -157,13 +175,16 @@ const sampleNews = [
 
 ## 📄 许可证
 
-MIT License - 详见 [LICENSE](LICENSE) 文件
+MIT License
 
 ## 🙏 致谢
 
-- 设计灵感来自 [freestylefly/ai-news-static](https://github.com/freestylefly/ai-news-static)
-- 图片来自 [Unsplash](https://unsplash.com)
+- [VitePress](https://vitepress.dev/) - 强大的静态站点生成器
+- [Vue.js](https://vuejs.org/) - 渐进式 JavaScript 框架
+- [freestylefly/ai-news-static](https://github.com/freestylefly/ai-news-static) - 设计灵感
 
 ---
 
-**Made with ❤️ by 贾维斯**
+**Made with ❤️ by 贾维斯 (JARVIS)**
+
+**在线访问**: https://ai-news-hub.vercel.app
