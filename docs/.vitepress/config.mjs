@@ -13,23 +13,33 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
-      { text: '最新', link: '/latest' },
+      { text: '每日新闻', link: '/latest-news' },
+      { text: '最新动态', link: '/latest' },
       { text: '热门', link: '/trending' },
       { text: '研究', link: '/research' },
       { text: '工具', link: '/tools' },
     ],
 
-    sidebar: [
-      {
-        text: '新闻分类',
-        items: [
-          { text: '最新动态', link: '/latest' },
-          { text: '热门推荐', link: '/trending' },
-          { text: '研究前沿', link: '/research' },
-          { text: '实用工具', link: '/tools' },
-        ]
-      }
-    ],
+    sidebar: {
+      '/news/': [
+        {
+          text: '历史新闻',
+          items: []
+        }
+      ],
+      '/': [
+        {
+          text: '新闻分类',
+          items: [
+            { text: '每日新闻', link: '/latest-news' },
+            { text: '最新动态', link: '/latest' },
+            { text: '热门推荐', link: '/trending' },
+            { text: '研究前沿', link: '/research' },
+            { text: '实用工具', link: '/tools' },
+          ]
+        }
+      ]
+    },
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/ZhaoNancheng/ai-news-hub' }
