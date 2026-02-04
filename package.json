@@ -1,0 +1,12 @@
+{
+  "name": "ai-news-hub",
+  "version": "1.0.0",
+  "description": "AI News Hub - 静态网页系统",
+  "scripts": {
+    "dev": "python3 -m http.server 8000",
+    "build": "echo 'Static site - no build needed'"
+  },
+  "keywords": ["ai", "news", "static", "vercel"],
+  "author": "",
+  "license": "MIT"
+}
