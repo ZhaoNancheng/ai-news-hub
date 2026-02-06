@@ -6,29 +6,32 @@
 /* ==================== 全局样式优化 ==================== */
 
 :root {
+  /* 品牌色 */
   --vp-c-brand-1: #3c8772;
   --vp-c-brand-2: #2d6958;
   --vp-c-brand-3: #234f42;
 
-  /* 间距系统 */
-  --vp-spacing-xs: 0.5rem;
-  --vp-spacing-sm: 1rem;
-  --vp-spacing-md: 1.5rem;
-  --vp-spacing-lg: 2rem;
-  --vp-spacing-xl: 3rem;
+  /* Hero 标题渐变色 */
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #3c8772 30%, #2d6958);
 
-  /* 圆角 */
-  --vp-radius-sm: 8px;
-  --vp-radius-md: 12px;
-  --vp-radius-lg: 16px;
-  --vp-radius-xl: 20px;
+  /* Hero logo 背景渐变色 */
+  --vp-home-hero-image-background-image: linear-gradient(-45deg, #3c8772 30%, #2d6958);
+  --vp-home-hero-image-filter: blur(80px);
+}
+
+/* 深色模式 */
+.dark {
+  --vp-c-brand-1: #4dd0a1;
+  --vp-c-brand-2: #3c8772;
+  --vp-c-brand-3: #2d6958;
 }
 
 /* ==================== 内容区域优化 ==================== */
 
-/* 移除内容宽度限制，让页面更宽敞 */
+/* 保持内容宽度适中，不要过宽 */
 .vp-doc {
-  max-width: 1200px !important;
+  max-width: 960px !important;
   padding: 32px 24px !important;
 }
 
@@ -92,12 +95,11 @@
   color: var(--vp-c-brand-1);
   text-decoration: none;
   transition: color 0.2s;
-  border-bottom: 1px solid transparent;
 }
 
 .vp-doc a:hover {
   color: var(--vp-c-brand-2);
-  border-bottom-color: var(--vp-c-brand-2);
+  text-decoration: underline;
 }
 
 /* 引用块优化 */
@@ -106,7 +108,7 @@
   padding: 1rem 1.5rem;
   background: var(--vp-c-bg-soft);
   border-left: 4px solid var(--vp-c-brand-1);
-  border-radius: var(--vp-radius-sm);
+  border-radius: 8px;
   color: var(--vp-c-text-2);
   line-height: 1.75;
 }
@@ -124,7 +126,7 @@
   margin: 1.5rem 0;
   padding: 1.25rem;
   background: var(--vp-c-bg-soft);
-  border-radius: var(--vp-radius-md);
+  border-radius: 8px;
   overflow-x: auto;
   line-height: 1.6;
 }
@@ -142,14 +144,53 @@
   border-top: 2px solid var(--vp-c-divider-light);
 }
 
+/* ==================== 首页 Hero 区域优化 ==================== */
+
+.VPHero {
+  padding: 6rem 2rem !important;
+}
+
+.VPHero .name {
+  font-size: 3rem !important;
+  font-weight: 700 !important;
+}
+
+.VPHero .text {
+  font-size: 1.5rem !important;
+  line-height: 1.6 !important;
+}
+
+.VPHero .tagline {
+  font-size: 1.125rem !important;
+  opacity: 0.8 !important;
+}
+
+/* ==================== 首页 Features 优化 ==================== */
+
+.VPFeatures {
+  padding: 3rem 2rem !important;
+}
+
+.VPFeature .title {
+  font-size: 1.25rem !important;
+  font-weight: 600 !important;
+  margin-bottom: 0.75rem !important;
+}
+
+.VPFeature .details {
+  font-size: 0.9375rem !important;
+  line-height: 1.7 !important;
+  color: var(--vp-c-text-2) !important;
+}
+
 /* ==================== 卡片组件 ==================== */
 
 .news-card {
   background: var(--vp-c-bg);
   border: 1px solid var(--vp-c-border);
-  border-radius: var(--vp-radius-lg);
-  padding: var(--vp-spacing-lg);
-  margin: var(--vp-spacing-md) 0;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin: 1rem 0;
   transition: all 0.3s ease;
 }
 
@@ -164,7 +205,7 @@
 .btn {
   display: inline-block;
   padding: 0.75rem 1.75rem;
-  border-radius: var(--vp-radius-sm);
+  border-radius: 8px;
   font-weight: 600;
   text-decoration: none;
   transition: all 0.3s ease;
@@ -222,7 +263,7 @@
 
 .grid {
   display: grid;
-  gap: var(--vp-spacing-md);
+  gap: 1.5rem;
 }
 
 .grid-2 {
@@ -252,25 +293,15 @@
     font-size: 1.5rem;
   }
 
+  .VPHero .name {
+    font-size: 2.5rem !important;
+  }
+
   .grid-2,
   .grid-3,
   .grid-4 {
     grid-template-columns: 1fr;
   }
-}
-
-/* ==================== 首页特殊样式 ==================== */
-
-.VPHome {
-  padding-bottom: 0 !important;
-}
-
-.VPHero {
-  padding: 4rem 2rem !important;
-}
-
-.VPFeatures {
-  padding: 3rem 2rem !important;
 }
 
 /* ==================== 自定义页面样式 ==================== */
@@ -279,7 +310,7 @@
 .news-item {
   padding: 1rem 1.5rem;
   background: var(--vp-c-bg-soft);
-  border-radius: var(--vp-radius-sm);
+  border-radius: 8px;
   margin: 1rem 0;
   border-left: 3px solid var(--vp-c-brand-1);
   transition: all 0.3s ease;
@@ -294,6 +325,7 @@
   font-weight: 600;
   color: var(--vp-c-text-1);
   margin-bottom: 0.5rem;
+  font-size: 1rem;
 }
 
 .news-item-meta {
@@ -306,7 +338,7 @@
   padding: 1.5rem;
   background: var(--vp-c-bg);
   border: 1px solid var(--vp-c-border);
-  border-radius: var(--vp-radius-md);
+  border-radius: 12px;
   text-align: center;
   transition: all 0.3s ease;
 }
@@ -339,7 +371,7 @@
   padding: 1.5rem;
   background: var(--vp-c-bg);
   border: 1px solid var(--vp-c-border);
-  border-radius: var(--vp-radius-md);
+  border-radius: 12px;
   text-decoration: none;
   color: inherit;
   transition: all 0.3s ease;
@@ -363,7 +395,7 @@
   padding: 0.75rem;
   background: var(--vp-c-bg);
   border: 1px solid var(--vp-c-border);
-  border-radius: var(--vp-radius-sm);
+  border-radius: 8px;
   text-align: center;
   text-decoration: none;
   color: inherit;
@@ -407,4 +439,11 @@
 ::-moz-selection {
   background: var(--vp-c-brand-1);
   color: white;
+}
+
+/* ==================== 隐藏不需要的元素 ==================== */
+
+/* 移除链接下划线 */
+.vp-doc a {
+  text-decoration: none !important;
 }
