@@ -81,11 +81,14 @@
 
 /* 调整图标尺寸 - 适中的大小 (170px) */
 .VPHero .image-container {
-  max-width: 200px !important;
-  max-height: 200px !important;
-  margin: 0 auto 1rem !important;
-  /* 减小背景尺寸，避免盖住按钮 */
-  padding: 1.5rem !important;
+  max-width: 180px !important;
+  max-height: 180px !important;
+  margin: 0 auto 1.5rem !important;
+  /* 严格控制背景范围，避免盖住按钮 */
+  padding: 1rem !important;
+  /* 缩小背景尺寸 */
+  width: 140px !important;
+  height: 140px !important;
 }
 
 .VPHero .image {
