@@ -17,7 +17,7 @@
 
   /* Hero logo 背景渐变色 */
   --vp-home-hero-image-background-image: linear-gradient(-45deg, #3c8772 30%, #2d6958);
-  --vp-home-hero-image-filter: blur(80px);
+  --vp-home-hero-image-filter: blur(40px);
 }
 
 /* 深色模式 */
@@ -147,22 +147,41 @@
 /* ==================== 首页 Hero 区域优化 ==================== */
 
 .VPHero {
-  padding: 6rem 2rem !important;
+  padding: 6rem 2rem 4rem !important;
+}
+
+/* 缩小图标尺寸 */
+.VPHero .image-container {
+  max-width: 180px !important;
+  max-height: 180px !important;
+  margin: 0 auto 2rem !important;
+}
+
+.VPHero .image {
+  max-width: 120px !important;
+  max-height: 120px !important;
 }
 
 .VPHero .name {
-  font-size: 3rem !important;
+  font-size: 2.5rem !important;
   font-weight: 700 !important;
+  margin-bottom: 1rem !important;
 }
 
 .VPHero .text {
-  font-size: 1.5rem !important;
+  font-size: 1.25rem !important;
   line-height: 1.6 !important;
+  margin-bottom: 1.5rem !important;
 }
 
 .VPHero .tagline {
-  font-size: 1.125rem !important;
+  font-size: 1rem !important;
   opacity: 0.8 !important;
+  margin-bottom: 2rem !important;
+}
+
+.VPHero .actions {
+  margin-top: 2rem !important;
 }
 
 /* ==================== 首页 Features 优化 ==================== */
@@ -181,6 +200,99 @@
   font-size: 0.9375rem !important;
   line-height: 1.7 !important;
   color: var(--vp-c-text-2) !important;
+}
+
+.VPFeature .link-text {
+  margin-top: 1rem !important;
+  font-size: 0.875rem !important;
+}
+
+/* ==================== 首页卡片式内容 ==================== */
+
+.home-cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin: 3rem auto;
+  max-width: 1200px;
+  padding: 0 2rem;
+}
+
+.home-card {
+  background: var(--vp-c-bg);
+  border: 1px solid var(--vp-c-border);
+  border-radius: 12px;
+  padding: 1.5rem;
+  transition: all 0.3s ease;
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.home-card:hover {
+  border-color: var(--vp-c-brand-1);
+  box-shadow: var(--vp-shadow-2);
+  transform: translateY(-4px);
+}
+
+.home-card-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.home-card-icon {
+  font-size: 2rem;
+  line-height: 1;
+}
+
+.home-card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--vp-c-text-1);
+  flex: 1;
+}
+
+.home-card-content {
+  color: var(--vp-c-text-2);
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+.home-card-list {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+}
+
+.home-card-list li {
+  padding: 0.5rem 0;
+  padding-left: 1.5rem;
+  position: relative;
+  color: var(--vp-c-text-2);
+  font-size: 0.9375rem;
+  line-height: 1.6;
+}
+
+.home-card-list li::before {
+  content: "▸";
+  position: absolute;
+  left: 0;
+  color: var(--vp-c-brand-1);
+  font-weight: 700;
+}
+
+.home-card-link {
+  display: inline-block;
+  color: var(--vp-c-brand-1);
+  font-weight: 600;
+  font-size: 0.9375rem;
+  margin-top: 0.5rem;
+}
+
+.home-card:hover .home-card-link {
+  text-decoration: underline;
 }
 
 /* ==================== 卡片组件 ==================== */
@@ -294,7 +406,12 @@
   }
 
   .VPHero .name {
-    font-size: 2.5rem !important;
+    font-size: 2rem !important;
+  }
+
+  .home-cards-container {
+    grid-template-columns: 1fr;
+    padding: 0 1rem;
   }
 
   .grid-2,
