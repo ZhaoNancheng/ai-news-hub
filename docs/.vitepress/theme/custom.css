@@ -26,8 +26,9 @@
 
 /* ==================== 内容区域优化 ==================== */
 
+/* 移除内容宽度限制，让页面更宽敞 */
 .vp-doc {
-  max-width: 860px !important;
+  max-width: 1200px !important;
   padding: 32px 24px !important;
 }
 

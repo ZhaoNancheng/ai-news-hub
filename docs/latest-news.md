@@ -1,134 +1,14 @@
-# 📰 最新 AI 新闻
+# 📰 每日新闻
 
 > 每日更新，汇聚全球 AI 行业最新动态
 
-**最后更新**: 2026-02-06 12:00
-
-<style>
-.hero-section {
-  text-align: center;
-  padding: 3rem 2rem;
-  background: linear-gradient(135deg, rgba(60, 135, 114, 0.1), rgba(45, 105, 88, 0.1));
-  border-radius: var(--vp-radius-lg);
-  margin: 2rem 0;
-}
-
-.hero-title {
-  font-size: 2.5rem;
-  font-weight: 700;
-  margin-bottom: 1rem;
-  background: linear-gradient(135deg, var(--vp-c-brand-1), var(--vp-c-brand-2));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-
-.hero-subtitle {
-  font-size: 1.25rem;
-  color: var(--vp-c-text-2);
-  margin-bottom: 2rem;
-}
-
-.update-info {
-  display: flex;
-  gap: 1rem;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.update-badge {
-  padding: 0.5rem 1.25rem;
-  background: var(--vp-c-brand-1);
-  color: white;
-  border-radius: 20px;
-  font-size: 0.875rem;
-  font-weight: 600;
-}
-
-.update-meta {
-  padding: 0.5rem 1.25rem;
-  background: var(--vp-c-bg-soft);
-  border-radius: 20px;
-  font-size: 0.875rem;
-  color: var(--vp-c-text-2);
-}
-</style>
-
-<div class="hero-section">
-  <div class="hero-title">📰 最新 AI 新闻</div>
-  <div class="hero-subtitle">每日聚合全球 AI 论文、行业动态和产品更新</div>
-  <div class="update-info">
-    <div class="update-badge">✨ 每日 08:00 自动更新</div>
-    <div class="update-meta">📅 2026-02-06</div>
-  </div>
-</div>
+**最后更新**: 2026-02-06 12:30
 
 ---
 
-## 📅 今日新闻 - 2026年2月6日
+## 📅 今日新闻 - 2026年2月6日 星期四
 
-<style>
-.today-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin: 2rem 0 1.5rem;
-  flex-wrap: wrap;
-  gap: 1rem;
-  padding-bottom: 1rem;
-  border-bottom: 2px solid var(--vp-c-divider-light);
-}
-
-.today-title {
-  font-size: 1.75rem;
-  font-weight: 700;
-  color: var(--vp-c-text-1);
-}
-
-.today-stats {
-  display: flex;
-  gap: 1.5rem;
-  flex-wrap: wrap;
-}
-
-.stat-item {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-.stat-number {
-  font-size: 1.5rem;
-  font-weight: 700;
-  background: var(--vp-c-brand-1);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-
-.stat-label {
-  color: var(--vp-c-text-2);
-  font-size: 0.875rem;
-}
-</style>
-
-<div class="today-header">
-  <div class="today-title">📅 2026年2月6日 星期四</div>
-  <div class="today-stats">
-    <div class="stat-item">
-      <span class="stat-number">12</span>
-      <span class="stat-label">条新闻</span>
-    </div>
-    <div class="stat-item">
-      <span class="stat-number">4</span>
-      <span class="stat-label">个类别</span>
-    </div>
-    <div class="stat-item">
-      <span class="stat-number">8</span>
-      <span class="stat-label">个来源</span>
-    </div>
-  </div>
-</div>
+**今日统计：** 12条新闻 | 4个类别 | 8个来源
 
 ---
 
@@ -274,294 +154,39 @@ Gartner 2025 年调研显示，中国企业计划大幅增加在生成式 AI 和
 
 ## 📈 本日趋势总结
 
-<style>
-.trends-section {
-  background: var(--vp-c-bg-soft);
-  border-radius: var(--vp-radius-lg);
-  padding: 2rem;
-  margin: 3rem 0;
-}
+### 🔝 热门关键词
 
-.trends-title {
-  font-size: 1.5rem;
-  font-weight: 700;
-  margin-bottom: 1.5rem;
-  text-align: center;
-}
+- Agentic Coding（智能体编程）
+- AI Infrastructure（AI 基础设施）
+- Enterprise AI（企业 AI）
+- AI Governance（AI 治理）
+- Vertical AI Models（垂直领域 AI 模型）
 
-.trends-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1.5rem;
-  margin-bottom: 2rem;
-}
+### 💡 重要洞察
 
-.trend-card {
-  padding: 1.5rem;
-  background: var(--vp-c-bg);
-  border-radius: var(--vp-radius-md);
-  border-left: 4px solid var(--vp-c-brand-1);
-}
+**1. 编程工具竞争白热化**
+OpenAI 和 Anthropic 在同一天发布 agentic coding models，显示 AI 编程助手已成为竞争焦点。
 
-.trend-card-title {
-  font-weight: 600;
-  margin-bottom: 0.75rem;
-  color: var(--vp-c-text-1);
-}
+**2. 投资规模创历史新高**
+从亚马逊的 2000 亿美元到中国巨头的数千亿人民币投资，AI 基础设施建设正在全球范围加速。
 
-.trend-card-content {
-  color: var(--vp-c-text-2);
-  line-height: 1.7;
-}
+**3. 垂直模型 vs 通用模型**
+蚂蚁集团的"阿福"在医疗健康垂直领域的成功，展现了专业化 AI 模型的商业潜力。
 
-.insights-list {
-  margin-top: 2rem;
-}
-
-.insight-item {
-  padding: 1rem 1.5rem;
-  margin: 1rem 0;
-  background: var(--vp-c-bg);
-  border-radius: var(--vp-radius-sm);
-  border-left: 3px solid var(--vp-c-brand-1);
-}
-
-.insight-title {
-  font-weight: 600;
-  margin-bottom: 0.5rem;
-  color: var(--vp-c-text-1);
-}
-
-.insight-content {
-  color: var(--vp-c-text-2);
-  line-height: 1.7;
-}
-</style>
-
-<div class="trends-section">
-  <div class="trends-title">📈 本日趋势总结</div>
-
-  <div class="trends-grid">
-    <div class="trend-card">
-      <div class="trend-card-title">🔝 热门关键词</div>
-      <div class="trend-card-content">
-        Agentic Coding（智能体编程）<br>
-        AI Infrastructure（AI 基础设施）<br>
-        Enterprise AI（企业 AI）<br>
-        AI Governance（AI 治理）<br>
-        Vertical AI Models（垂直领域 AI 模型）
-      </div>
-    </div>
-
-    <div class="trend-card">
-      <div class="trend-card-title">💡 投资热点</div>
-      <div class="trend-card-content">
-        • 亚马逊 2000 亿美元 AI 投资<br>
-        • 中国企业 AI 投资增幅 40%+<br>
-        • AI 基础设施建设加速<br>
-        • 垂直领域 AI 模型崛起
-      </div>
-    </div>
-  </div>
-
-  <div class="insights-list">
-    <div class="insight-item">
-      <div class="insight-title">1. 编程工具竞争白热化</div>
-      <div class="insight-content">
-        OpenAI 和 Anthropic 在同一天发布 agentic coding models，显示 AI 编程助手已成为竞争焦点。
-      </div>
-    </div>
-
-    <div class="insight-item">
-      <div class="insight-title">2. 投资规模创历史新高</div>
-      <div class="insight-content">
-        从亚马逊的 2000 亿美元到中国巨头的数千亿人民币投资，AI 基础设施建设正在全球范围加速。
-      </div>
-    </div>
-
-    <div class="insight-item">
-      <div class="insight-title">3. 垂直模型 vs 通用模型</div>
-      <div class="insight-content">
-        蚂蚁集团的"阿福"在医疗健康垂直领域的成功，展现了专业化 AI 模型的商业潜力。
-      </div>
-    </div>
-
-    <div class="insight-item">
-      <div class="insight-title">4. 治理需求日益迫切</div>
-      <div class="insight-content">
-        从联合国成立专家组到 AI 假视频问题，AI 安全和治理已成为全球性议题。
-      </div>
-    </div>
-  </div>
-</div>
+**4. 治理需求日益迫切**
+从联合国成立专家组到 AI 假视频问题，AI 安全和治理已成为全球性议题。
 
 ---
 
 ## 📚 历史新闻归档
 
-<style>
-.archive-section {
-  background: var(--vp-c-bg);
-  border: 1px solid var(--vp-c-border);
-  border-radius: var(--vp-radius-lg);
-  padding: 2rem;
-  margin: 3rem 0;
-}
+### 2026年2月
 
-.archive-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 1.5rem;
-  padding-bottom: 1rem;
-  border-bottom: 1px solid var(--vp-c-divider-light);
-}
-
-.archive-title {
-  font-size: 1.5rem;
-  font-weight: 700;
-  color: var(--vp-c-text-1);
-}
-
-.archive-view-all {
-  padding: 0.5rem 1.25rem;
-  background: var(--vp-c-bg-soft);
-  border-radius: var(--vp-radius-sm);
-  font-size: 0.875rem;
-  text-decoration: none;
-  color: var(--vp-c-text-2);
-  transition: all 0.3s ease;
-}
-
-.archive-view-all:hover {
-  background: var(--vp-c-brand-1);
-  color: white;
-}
-
-.archive-list {
-  display: flex;
-  flex-direction: column;
-  gap: 0.75rem;
-}
-
-.archive-item {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 1.5rem;
-  background: var(--vp-c-bg-soft);
-  border-radius: var(--vp-radius-sm);
-  text-decoration: none;
-  color: inherit;
-  transition: all 0.3s ease;
-}
-
-.archive-item:hover {
-  background: var(--vp-c-brand-1);
-  color: white;
-  transform: translateX(8px);
-}
-
-.archive-item-date {
-  font-weight: 600;
-  flex: 1;
-}
-
-.archive-item-count {
-  padding: 0.25rem 0.75rem;
-  background: var(--vp-c-bg);
-  border-radius: 20px;
-  font-size: 0.75rem;
-  color: var(--vp-c-text-2);
-}
-
-.archive-item:hover .archive-item-count {
-  background: rgba(255, 255, 255, 0.2);
-  color: white;
-}
-</style>
-
-<div class="archive-section">
-  <div class="archive-header">
-    <div class="archive-title">📚 历史新闻归档</div>
-    <a href="#" class="archive-view-all">查看全部 →</a>
-  </div>
-  <div class="archive-list">
-    <a href="/news/2026-02-05" class="archive-item">
-      <span class="archive-item-date">📅 2026-02-05 星期三</span>
-      <span class="archive-item-count">289 条</span>
-    </a>
-    <a href="/news/2026-02-04" class="archive-item">
-      <span class="archive-item-date">📅 2026-02-04 星期二</span>
-      <span class="archive-item-count">待统计</span>
-    </a>
-    <a href="/news/2026-02-03" class="archive-item">
-      <span class="archive-item-date">📅 2026-02-03 星期一</span>
-      <span class="archive-item-count">待统计</span>
-    </a>
-    <a href="/news/2026-02-02" class="archive-item">
-      <span class="archive-item-date">📅 2026-02-02 星期日</span>
-      <span class="archive-item-count">待统计</span>
-    </a>
-  </div>
-</div>
-
----
-
-## 🔔 订阅提醒
-
-<style>
-.subscribe-box {
-  text-align: center;
-  padding: 3rem 2rem;
-  background: linear-gradient(135deg, rgba(60, 135, 114, 0.1), rgba(45, 105, 88, 0.1));
-  border-radius: var(--vp-radius-lg);
-  margin: 3rem 0;
-}
-
-.subscribe-title {
-  font-size: 1.75rem;
-  font-weight: 700;
-  margin-bottom: 1rem;
-  color: var(--vp-c-text-1);
-}
-
-.subscribe-text {
-  color: var(--vp-c-text-2);
-  margin-bottom: 2rem;
-  line-height: 1.75;
-}
-
-.subscribe-features {
-  display: flex;
-  gap: 1rem;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin-bottom: 2rem;
-}
-
-.subscribe-feature {
-  padding: 0.5rem 1rem;
-  background: var(--vp-c-bg);
-  border-radius: 20px;
-  font-size: 0.875rem;
-  color: var(--vp-c-text-2);
-}
-</style>
-
-<div class="subscribe-box">
-  <div class="subscribe-title">🔔 每日自动更新</div>
-  <div class="subscribe-text">
-    每天 08:00 自动获取最新 AI 新闻、论文和工具更新<br>
-    保持知识前沿，不错过任何重要动态
-  </div>
-  <div class="subscribe-features">
-    <div class="subscribe-feature">⏰ 定时更新</div>
-    <div class="subscribe-feature">🤖 AI 智能筛选</div>
-    <div class="subscribe-feature">🌍 全球资讯</div>
-    <div class="subscribe-feature">📚 论文追踪</div>
-  </div>
-</div>
+- [02-05](/news/2026-02-05) - 289条新闻
+- [02-04](/news/2026-02-04)
+- [02-03](/news/2026-02-03)
+- [02-02](/news/2026-02-02)
+- [02-01](/news/2026-02-01)
 
 ---
 

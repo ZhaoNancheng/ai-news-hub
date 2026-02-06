@@ -16,29 +16,25 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: '每日新闻', link: '/latest-news' },
-      { text: '最新动态', link: '/latest' },
-      { text: '热门', link: '/trending' },
-      { text: '研究', link: '/research' },
-      { text: '工具', link: '/tools' },
+      { text: '研究前沿', link: '/research' },
+      { text: '热门推荐', link: '/trending' },
     ],
 
     sidebar: {
+      '/': [
+        {
+          text: '核心板块',
+          items: [
+            { text: '每日新闻', link: '/latest-news' },
+            { text: '研究前沿', link: '/research' },
+            { text: '热门推荐', link: '/trending' },
+          ]
+        }
+      ],
       '/news/': [
         {
           text: '历史新闻',
           items: []
-        }
-      ],
-      '/': [
-        {
-          text: '新闻分类',
-          items: [
-            { text: '每日新闻', link: '/latest-news' },
-            { text: '最新动态', link: '/latest' },
-            { text: '热门推荐', link: '/trending' },
-            { text: '研究前沿', link: '/research' },
-            { text: '实用工具', link: '/tools' },
-          ]
         }
       ]
     },
