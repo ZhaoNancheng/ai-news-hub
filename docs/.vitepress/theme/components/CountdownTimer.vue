@@ -27,7 +27,14 @@ const getNextUpdate = () => {
 
   const formattedTime = `${String(hours).padStart(2, '0')}:${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`
   timeRemaining.value = formattedTime
-  nextUpdate.value = `更新时间: ${tomorrow.toLocaleDateString('zh-CN', { month: 'long', day: 'numeric', hour: '2-digit', minute: '2-digit' })}`
+
+  const monthNames = ['1月', '2月', '3月', '4月', '5月', '6月', '7月', '8月', '9月', '10月', '11月', '12月']
+  const month = monthNames[tomorrow.getMonth()]
+  const day = tomorrow.getDate()
+  const hour = String(tomorrow.getHours()).padStart(2, '0')
+  const minute = String(tomorrow.getMinutes()).padStart(2, '0')
+
+  nextUpdate.value = `更新时间: ${month}${day}日 ${hour}:${minute}`
 }
 
 const updateTimer = () => {
@@ -94,12 +101,17 @@ onUnmounted(() => {
   -webkit-text-fill-color: transparent;
   background-clip: text;
   margin: 1rem 0;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.05em;
+  line-height: 1.2;
+  word-break: break-all;
 }
 
 .countdown-label {
   font-size: 0.9375rem;
   color: var(--vp-c-text-2);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 @media (max-width: 768px) {
@@ -110,6 +122,10 @@ onUnmounted(() => {
 
   .countdown-time {
     font-size: 2.5rem;
+  }
+
+  .countdown-label {
+    font-size: 0.875rem;
   }
 }
 </style>
