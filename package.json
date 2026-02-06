@@ -7,7 +7,9 @@
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs",
     "deploy:dual": "./deploy-dual-platform.sh",
-    "push:dual": "./push-dual-platform.sh"
+    "push:dual": "./push-dual-platform.sh",
+    "deploy:gitlab": "./deploy-dual-platform-gitlab.sh",
+    "push:gitlab": "./push-dual-platform-gitlab.sh"
   },
   "devDependencies": {
     "vitepress": "^1.0.0"
