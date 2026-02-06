@@ -3,8 +3,8 @@ layout: home
 
 hero:
   name: AI News Hub
-  text: 探索 AI 世界的最新动态
-  tagline: 每日聚合全球 AI 新闻、论文和工具
+  text: Latest Updates on AI Tools & Technology
+  tagline: 每日聚合全球 AI 新闻、论文和工具，保持知识前沿
   image:
     src: /favicon.svg
     alt: AI News Hub
@@ -13,7 +13,7 @@ hero:
       text: 开始浏览
       link: /latest-news
     - theme: alt
-      text: 查看源码
+      text: GitHub
       link: https://github.com/ZhaoNancheng/ai-news-hub
 
 features:
@@ -21,17 +21,17 @@ features:
     title: 每日新闻
     details: 每天 08:00 自动获取最新 AI 新闻、行业动态和产品更新
     link: /latest-news
-    linkText: 查看新闻
+    linkText: 查看新闻 →
   - icon: 🔬
     title: 研究前沿
     details: 追踪 AI Agent、多智能体系统、世界模型等前沿研究
     link: /research
-    linkText: 深入研究
+    linkText: 深入研究 →
   - icon: 🔥
     title: 热门推荐
     details: 发现当前 AI 领域最热门的研究方向和讨论话题
     link: /trending
-    linkText: 查看热门
+    linkText: 查看热门 →
 ---
 
 <style>
@@ -53,13 +53,13 @@ features:
   display: block;
   text-decoration: none;
   color: inherit;
-  box-shadow: var(--vp-shadow-1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
 .home-card:hover {
   border-color: var(--vp-c-brand-1);
-  box-shadow: var(--vp-shadow-3);
-  transform: translateY(-6px);
+  box-shadow: 0 12px 24px rgba(60, 135, 114, 0.15);
+  transform: translateY(-8px);
 }
 
 .home-card-header {
@@ -85,6 +85,7 @@ features:
   color: var(--vp-c-text-2);
   line-height: 1.8;
   margin-bottom: 1.5rem;
+  font-size: 1rem;
 }
 
 .home-card-list {
@@ -118,20 +119,19 @@ features:
 
 .home-card-link {
   display: inline-block;
-  color: var(--vp-c-brand-1);
+  color: white;
   font-weight: 600;
   font-size: 1rem;
   margin-top: 1rem;
-  padding: 0.75rem 1.5rem;
+  padding: 0.875rem 2rem;
   background: var(--vp-c-brand-1);
-  color: white !important;
   border-radius: 8px;
   transition: all 0.3s ease;
+  text-align: center;
 }
 
 .home-card:hover .home-card-link {
   background: var(--vp-c-brand-2);
-  transform: translateX(4px);
 }
 
 @media (max-width: 768px) {
@@ -202,53 +202,262 @@ features:
 
 ---
 
-## 🎯 为什么选择 AI News Hub？
+<style>
+.featured-section {
+  background: linear-gradient(135deg, rgba(60, 135, 114, 0.08), rgba(45, 105, 88, 0.08));
+  border-radius: 20px;
+  padding: 4rem 3rem;
+  margin: 5rem 2rem;
+  text-align: center;
+}
 
-### ⚡ 极速性能
+.featured-title {
+  font-size: 2.25rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: var(--vp-c-text-1);
+}
 
-基于 VitePress 静态生成，CDN 全球加速，毫秒级加载响应。
+.featured-subtitle {
+  font-size: 1.125rem;
+  color: var(--vp-c-text-2);
+  margin-bottom: 3rem;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.8;
+}
 
-### 🔄 自动化更新
+.featured-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  margin: 3rem 0;
+}
 
-每天 08:00 自动获取最新资讯，无需人工干预。
+.featured-stat {
+  padding: 1.5rem;
+}
 
-### 📱 完美体验
+.stat-number {
+  font-size: 3rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, var(--vp-c-brand-1), var(--vp-c-brand-2));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 0.5rem;
+}
 
-响应式设计，支持所有设备，内置全文搜索。
+.stat-label {
+  color: var(--vp-c-text-2);
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .featured-section {
+    padding: 3rem 2rem;
+    margin: 3rem 1rem;
+  }
+
+  .featured-title {
+    font-size: 1.75rem;
+  }
+
+  .stat-number {
+    font-size: 2.5rem;
+  }
+}
+</style>
+
+<div class="featured-section">
+  <div class="featured-title">探索 AI 的无限可能</div>
+  <div class="featured-subtitle">
+    保持对最新 AI 发展的敏锐洞察，从学术论文到行业动态，
+    我们帮您追踪人工智能领域的每一个重要突破。
+  </div>
+  
+  <div class="featured-stats">
+    <div class="featured-stat">
+      <div class="stat-number">100+</div>
+      <div class="stat-label">每日更新新闻</div>
+    </div>
+    <div class="featured-stat">
+      <div class="stat-number">50+</div>
+      <div class="stat-label">arXiv 论文</div>
+    </div>
+    <div class="featured-stat">
+      <div class="stat-number">8+</div>
+      <div class="stat-label">权威数据源</div>
+    </div>
+  </div>
+</div>
 
 ---
 
-## 📊 数据来源
+<style>
+.info-section {
+  max-width: 900px;
+  margin: 4rem auto;
+  padding: 0 2rem;
+}
 
-我们整合了多个权威数据源，为您提供最全面的 AI 资讯：
+.info-title {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 3rem;
+  color: var(--vp-c-text-1);
+}
 
-- **arXiv.org** - 最新学术论文
-- **TechCrunch** - AI 行业新闻
-- **The Verge** - 深度科技报道
-- **MIT Technology Review** - 前沿技术分析
-- **21世纪经济报道** - 中国 AI 动态
-- **Gartner** - 市场研究数据
-- **公司博客** - OpenAI、Google、Anthropic
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.info-item {
+  padding: 2rem;
+  background: var(--vp-c-bg-soft);
+  border-radius: 12px;
+  text-align: center;
+}
+
+.info-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.info-item-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  color: var(--vp-c-text-1);
+}
+
+.info-item-content {
+  color: var(--vp-c-text-2);
+  line-height: 1.7;
+  font-size: 0.9375rem;
+}
+
+@media (max-width: 768px) {
+  .info-section {
+    padding: 0 1rem;
+  }
+
+  .info-grid {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+
+<div class="info-section">
+  <div class="info-title">为什么选择 AI News Hub？</div>
+  
+  <div class="info-grid">
+    <div class="info-item">
+      <span class="info-icon">⚡</span>
+      <div class="info-item-title">极速性能</div>
+      <div class="info-item-content">
+        基于 VitePress 静态生成，CDN 全球加速，毫秒级加载响应
+      </div>
+    </div>
+    
+    <div class="info-item">
+      <span class="info-icon">🔄</span>
+      <div class="info-item-title">自动化更新</div>
+      <div class="info-item-content">
+        每天 08:00 自动获取最新资讯，无需人工干预，保持知识前沿
+      </div>
+    </div>
+    
+    <div class="info-item">
+      <span class="info-icon">📱</span>
+      <div class="info-item-title">完美体验</div>
+      <div class="info-item-content">
+        响应式设计，支持所有设备，内置全文搜索，快速找到所需内容
+      </div>
+    </div>
+  </div>
+</div>
 
 ---
 
-## 🚀 快速开始
+<style>
+.data-sources {
+  background: var(--vp-c-bg);
+  border: 1px solid var(--vp-c-border);
+  border-radius: 16px;
+  padding: 3rem 2rem;
+  margin: 4rem auto;
+  max-width: 1000px;
+}
 
-1. **浏览新闻** - 查看最新的 AI 论文、行业动态和产品更新
-2. **深入阅读** - 点击感兴趣的文章，查看详细摘要和原文链接
-3. **订阅更新** - 每天 08:00 自动更新，保持知识前沿
+.data-sources-title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: var(--vp-c-text-1);
+}
 
-[开始探索 →](/latest-news)
+.data-sources-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
 
----
+.data-source-item {
+  padding: 1rem;
+  background: var(--vp-c-bg-soft);
+  border-radius: 8px;
+  text-align: center;
+}
 
-## 📞 联系我们
+.data-source-name {
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+  color: var(--vp-c-text-1);
+}
 
-- [GitHub 仓库](https://github.com/ZhaoNancheng/ai-news-hub)
-- [Vercel 访问](https://ai-news-hub-rosy.vercel.app/)
-- [GitLab 访问](https://ai-news-hub-046491.gitlab.io/)
+.data-source-desc {
+  font-size: 0.875rem;
+  color: var(--vp-c-text-2);
+}
+</style>
 
-欢迎提 Issue 和 PR 反馈建议
+<div class="data-sources">
+  <div class="data-sources-title">📊 数据来源</div>
+  <div class="data-sources-list">
+    <div class="data-source-item">
+      <div class="data-source-name">📚 arXiv.org</div>
+      <div class="data-source-desc">最新学术论文</div>
+    </div>
+    <div class="data-source-item">
+      <div class="data-source-name">🌐 TechCrunch</div>
+      <div class="data-source-desc">AI 行业新闻</div>
+    </div>
+    <div class="data-source-item">
+      <div class="data-source-name">🔬 MIT Tech Review</div>
+      <div class="data-source-desc">深度技术报道</div>
+    </div>
+    <div class="data-source-item">
+      <div class="data-source-name">💼 The Verge</div>
+      <div class="data-source-desc">产业动态</div>
+    </div>
+    <div class="data-source-item">
+      <div class="data-source-name">🏢 公司博客</div>
+      <div class="data-source-desc">OpenAI、Google、Anthropic</div>
+    </div>
+    <div class="data-source-item">
+      <div class="data-source-name">📈 Gartner</div>
+      <div class="data-source-desc">市场研究数据</div>
+    </div>
+  </div>
+</div>
 
 ---
 
