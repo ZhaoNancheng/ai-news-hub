@@ -79,6 +79,23 @@
   padding: 5rem 2rem 3rem !important;
 }
 
+/* 针对图标背景 div 的样式优化 */
+.VPHero .image-bg {
+  /* 严格控制背景尺寸和位置 */
+  width: 180px !important;
+  height: 180px !important;
+  /* 更强的模糊，让背景更柔和 */
+  filter: blur(80px) !important;
+  /* 减小背景尺寸百分比 */
+  background-size: 80% !important;
+  /* 确保背景居中 */
+  background-position: center !important;
+  /* 圆形背景 */
+  border-radius: 50% !important;
+  /* 减少不透明度，避免太明显 */
+  opacity: 0.6 !important;
+}
+
 /* 调整图标容器 - 参考 VitePress 官网 */
 .VPHero .image-container {
   /* 移除固定尺寸限制，使用默认布局 */
