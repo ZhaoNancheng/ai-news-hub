@@ -140,7 +140,7 @@ function updateDateDisplay() {
 function updateStats() {
     // 动画效果
     animateNumber('total-news', newsData.length);
-    animateNumber('total-sources', 8);
+    animateNumber('total-sources', 18); // 更新为18个信息源
 }
 
 // ===== 数字动画 =====
