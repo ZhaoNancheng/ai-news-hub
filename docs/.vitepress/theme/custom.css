@@ -17,8 +17,8 @@
 
   /* Hero logo 背景渐变色 */
   --vp-home-hero-image-background-image: linear-gradient(-45deg, #3c8772 30%, #2d6958);
-  --vp-home-hero-image-filter: blur(20px);
-  --vp-home-hero-image-background-size: 150% !important;
+  --vp-home-hero-image-filter: blur(30px);
+  --vp-home-hero-image-background-size: 120% !important;
 }
 
 /* 深色模式 */
@@ -84,11 +84,11 @@
   max-width: 180px !important;
   max-height: 180px !important;
   margin: 0 auto 1.5rem !important;
-  /* 严格控制背景范围，避免盖住按钮 */
-  padding: 1rem !important;
-  /* 缩小背景尺寸 */
-  width: 140px !important;
-  height: 140px !important;
+  /* 严格控制背景范围 */
+  width: 120px !important;
+  height: 120px !important;
+  /* 减小内边距，避免背景溢出 */
+  padding: 0 !important;
 }
 
 .VPHero .image {
