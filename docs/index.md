@@ -80,13 +80,12 @@ features:
 }
 
 .stat-number {
-  font-size: 3rem;
-  font-weight: 700;
-  background: linear-gradient(135deg, var(--vp-c-brand-1), var(--vp-c-brand-2));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: var(--vp-c-brand-1);
   margin-bottom: 0.5rem;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
 }
 
 .stat-label {
@@ -106,7 +105,9 @@ features:
   }
 
   .stat-number {
-    font-size: 2.5rem;
+    font-size: 2.75rem;
+    font-weight: 800;
+    line-height: 1.2;
   }
 }
 </style>
