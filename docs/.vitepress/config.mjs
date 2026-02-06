@@ -6,7 +6,9 @@ export default defineConfig({
   lang: 'zh-CN',
   base: '/',
   head: [
-    ['link', { rel: 'icon', href: '/favicon.ico' }],
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
+    ['link', { rel: 'icon', type: 'image/png', href: '/favicon.png' }],
+    ['link', { rel: 'shortcut icon', href: '/favicon.ico' }],
     ['meta', { name: 'theme-color', content: '#3c8772' }]
   ],
 
