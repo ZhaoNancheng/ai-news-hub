@@ -76,22 +76,35 @@ features:
 }
 
 .featured-stat {
-  padding: 1.5rem;
+  padding: 2rem;
+  background: rgba(60, 135, 114, 0.05);
+  border: 2px solid rgba(60, 135, 114, 0.2);
+  border-radius: 16px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.featured-stat:hover {
+  background: rgba(60, 135, 114, 0.1);
+  border-color: var(--vp-c-brand-1);
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(60, 135, 114, 0.2);
 }
 
 .stat-number {
-  font-size: 3.5rem;
-  font-weight: 800;
+  font-size: 4rem;
+  font-weight: 900;
   color: var(--vp-c-brand-1);
-  margin-bottom: 0.5rem;
-  line-height: 1.2;
-  letter-spacing: -0.02em;
+  margin-bottom: 0.75rem;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  text-shadow: 0 2px 8px rgba(60, 135, 114, 0.2);
 }
 
 .stat-label {
-  color: var(--vp-c-text-2);
-  font-size: 1rem;
-  font-weight: 500;
+  color: var(--vp-c-text-1);
+  font-size: 1.125rem;
+  font-weight: 600;
 }
 
 @media (max-width: 768px) {
@@ -104,10 +117,18 @@ features:
     font-size: 1.75rem;
   }
 
+  .featured-stat {
+    padding: 1.5rem;
+  }
+
   .stat-number {
-    font-size: 2.75rem;
-    font-weight: 800;
-    line-height: 1.2;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1;
+  }
+
+  .stat-label {
+    font-size: 1rem;
   }
 }
 </style>
