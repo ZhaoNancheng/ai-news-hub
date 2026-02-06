@@ -2,16 +2,32 @@
 
 ## 🚀 当前部署方案
 
-### 单平台部署：Vercel
+### 双平台部署
 
-**访问地址**：https://ai-news-hub-rosy.vercel.app/
+| 平台 | 地址 | 状态 |
+|------|------|------|
+| **Vercel** | https://ai-news-hub-rosy.vercel.app/ | ✅ 已上线 |
+| **GitLab Pages** | https://ai-news-hub-046491.gitlab.io/ | ✅ 已部署 |
 
-**特点**：
-- ✅ 全球 CDN 加速
-- ✅ 自动 HTTPS
-- ✅ 自动部署（推送代码自动触发）
-- ✅ 访问速度快
-- ✅ 稳定可靠
+---
+
+## 🌐 访问地址
+
+### Vercel（推荐 - 国际访问）
+```
+https://ai-news-hub-rosy.vercel.app/
+```
+✅ 全球 CDN 加速
+✅ 访问速度快
+✅ 稳定可靠
+
+### GitLab Pages（备用）
+```
+https://ai-news-hub-046491.gitlab.io/
+```
+✅ 免费托管
+✅ 自动部署
+⚠️  可能需要等待 DNS 生效
 
 ---
 
@@ -19,7 +35,7 @@
 
 ### 自动部署（已配置）
 
-Vercel 已连接到 GitHub 仓库，每次推送代码到 `main` 分支时自动部署。
+两个平台都已连接到 GitHub 仓库，每次推送代码到 `main` 分支时自动部署。
 
 ```bash
 # 更新内容后推送
@@ -27,103 +43,83 @@ git add .
 git commit -m "Update: news content"
 git push origin main
 
-# Vercel 自动部署，2-3分钟后生效
+# GitLab 推送
+git push gitlab main
 ```
-
-### 手动部署
-
-如需手动触发部署：
-
-1. 访问 Vercel Dashboard
-2. 选择项目 `ai-news-hub`
-3. 点击 **Redeploy**
 
 ---
 
 ## 🔧 本地开发
 
 ### 安装依赖
-
 ```bash
 npm install
 ```
 
 ### 本地预览
-
 ```bash
 npm run docs:dev
 ```
-
 访问：http://localhost:5173
 
 ### 构建网站
-
 ```bash
 npm run docs:build
 ```
-
 构建产物：`docs/.vitepress/dist/`
 
 ---
 
-## 📊 已尝试但不适合的方案
+## 💻 日常使用
 
-### ❌ Gitee Pages
-- **状态**：2024年已下线
-- **原因**：运营成本过高、滥用问题
+### 更新内容并部署
 
-### ❌ GitLab Pages
-- **状态**：服务正常但无法注册
-- **原因**：中国手机号无法注册
+```bash
+cd /data1/cc/vide-coding/ai-news-hub
 
-### ❌ 其他国内平台
-- 大多有各种限制
-- 部分已停止免费服务
+# 推送到 GitHub（Vercel 自动部署）
+git push origin main
 
----
+# 推送到 GitLab（GitLab 自动部署）
+./push-to-gitlab.sh
 
-## 💡 可选的国内加速方案
-
-如果需要提升国内访问速度，可以考虑：
-
-### 方案1：阿里云 OSS + CDN
-```
-成本：约5-20元/月
-速度：国内最快
-适用：对国内访问要求高
-```
-
-### 方案2：Cloudflare Pages
-```
-成本：免费
-速度：中等
-适用：国际访问为主
-```
-
-### 方案3：Netlify
-```
-成本：免费
-速度：中等
-适用：备份方案
+# 或同时推送到两个平台
+git push origin main && git push gitlab main
 ```
 
 ---
 
-## 🎯 总结
+## 🛠️ 故障排查
 
-**当前推荐**：继续使用 **Vercel** 单平台部署
+### GitLab Pages 无法访问
 
-**理由**：
-- ✅ 配置简单
-- ✅ 自动部署
-- ✅ 全球访问快
-- ✅ 完全免费
-- ✅ 稳定可靠
+**问题**: 访问 https://ai-news-hub-046491.gitlab.io/ 返回认证页面
 
-**如果需要国内加速**：
-- 考虑阿里云 OSS + CDN（低成本方案）
-- 或等待更合适的国内平台出现
+**解决方案**:
+1. 确认项目是 **Public**（公开）
+2. 访问 **Settings** → **Pages** 确认配置
+3. 等待 5-10 分钟让 DNS 生效
+4. 清除浏览器缓存后重试
+
+### Pipeline 失败
+
+**查看日志**:
+```
+https://gitlab.com/ZhaoNancheng/ai-news-hub/-/pipelines
+```
+
+点击失败的 job 查看详细错误信息。
 
 ---
 
-**文档更新时间**：2026-02-06
+## 📚 相关文档
+
+- **VitePress 文档**: https://vitepress.dev/
+- **Vercel 文档**: https://vercel.com/docs
+- **GitLab Pages 文档**: https://docs.gitlab.com/ee/user/project/pages/
+
+---
+
+**文档更新时间**: 2026-02-06
+**GitLab Pages 地址**: https://ai-news-hub-046491.gitlab.io/
+**Vercel 地址**: https://ai-news-hub-rosy.vercel.app/
