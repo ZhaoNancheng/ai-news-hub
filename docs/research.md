@@ -3,382 +3,325 @@
 > 追踪AI领域的最新学术研究和技术突破
 > Tracking the latest academic research and technological breakthroughs in AI
 
-**最后更新:** 2026-02-07 10:00:00
-**Last Updated:** February 7, 2026 10:00:00
+**最后更新:** 2026-02-08 12:00:00
+**Last Updated:** February 8, 2026 12:00:00
 
 ---
 
 ## 📅 今日研究动态 | Today's Research Updates
 
-**2026年2月7日 星期五** | 9篇重要论文 | 5个研究方向
+**2026年2月8日 星期六** | 10篇重要论文 | 6个研究方向
 
-**February 7, 2026 Friday** | 9 Important Papers | 5 Research Directions
+**February 8, 2026 Saturday** | 10 Important Papers | 6 Research Directions
 
 ---
 
 ## 🔥 核心研究突破 | Core Research Breakthroughs
 
-### 1. 多智能体系统新进展 | Advances in Multi-Agent Systems
+### 1. 世界模型与自动驾驶 | World Models & Autonomous Driving
 
-**DyTopo: 动态拓扑路由 | Dynamic Topology Routing**
+**Waymo World Model: 基于 Genie 3 的自动驾驶仿真**
 
-多智能体系统通过动态重构通信图实现自适应协作，比固定通信模式提升 6.2% 性能。
+Waymo 联手 DeepMind 打造世界模型，基于 Genie 3 构建高度逼真的 3D 环境，能够模拟龙卷风、偶遇大象等极端罕见场景。
 
-**AgenticPay: 多智能体谈判 | Multi-Agent Negotiation**
+**Waymo World Model: Genie 3-Based Autonomous Driving Simulation**
 
-首个基于自然语言的多智能体经济交互基准，包含 110+ 任务，填补了智能体经济行为评估的空白。
-
----
-
-### 2. 量子强化学习突破 | Quantum RL Breakthrough
-
-**量子-经典混合 CVRP 求解 | Hybrid Quantum-Classical CVRP**
-
-混合架构在车辆路径问题上超越经典方法，展示量子增强强化学习的实际价值。
+Waymo partners with DeepMind to build a world model based on Genie 3, creating highly realistic 3D environments capable of simulating extreme rare scenarios like tornadoes and elephant encounters.
 
 ---
 
-### 3. 安全关键系统防护 | Safety-Critical System Protection
+**视频世界模型综述: 从视频生成迈向通用世界模拟器**
 
-**AgentHeLLM 威胁建模框架 | Threat Modeling Framework**
+快手可灵团队联合港科大提出全新分类体系，以"状态构建"与"动态建模"为双支柱，为视频生成演进至鲁棒的通用世界模拟器提供清晰路线图。
 
-首个系统性解决车辆等安全关键系统中 LLM 助手安全问题的框架，分离资产识别与攻击路径分析。
+**Video World Models Survey: From Video Generation to Universal World Simulators**
+
+Kling AI team and HKUST propose a new classification system with "State Construction" and "Dynamics Modeling" as dual pillars, providing a clear roadmap for evolving video generation to robust universal world simulators.
 
 ---
 
-### 4. 语音情感识别 SOTA | SOTA Speech Emotion Recognition
+### 2. 强化学习与机器人 | Reinforcement Learning & Robotics
 
-**Whisper + 注意力池化 | Whisper + Attention Pooling**
+**LIFT: 人形机器人的真机强化学习**
 
-利用 Whisper 预训练表示和 QKV 池化，在波斯语数据集上实现 2.47% 性能提升。
+ICLR 2026 通研院提出人形机器人预训练与真机微调新范式，利用物理信息增强的世界模型，在真机上仅需 80-590 秒数据即可实现策略微调。
+
+**LIFT: Real-World Reinforcement Learning for Humanoid Robots**
+
+BIGAI and Xidian University propose a new paradigm for humanoid robot pretraining and real-world fine-tuning at ICLR 2026, using physics-informed world models to achieve policy fine-tuning with just 80-590 seconds of real-world data.
+
+---
+
+**Self-Aligned Reward: 解决 LLM 推理过度思考**
+
+UIUC 与 Amazon AWS 提出自我一致性奖励（SAR），利用模型内部困惑度信号，在不牺牲准确率的前提下减少 30% 推理长度。
+
+**Self-Aligned Reward: Solving LLM Over-Thinking**
+
+UIUC and Amazon AWS propose Self-Aligned Reward (SAR) using model internal perplexity signals, reducing reasoning length by 30% without sacrificing accuracy.
+
+---
+
+### 3. 神经架构与激活函数 | Neural Architecture & Activation Functions
+
+**DeepMind "算力矿场": 暴力搜出下一代 ReLU**
+
+DeepMind 利用 AlphaEvolve 在无限 Python 函数空间中"挖掘"激活函数，发现 GELUSine 和 GELU-Sinc-Perturbation 在算法推理任务上超越现有方法。
+
+**DeepMind "Mining Farm": Discovering Next-Gen ReLU**
+
+DeepMind uses AlphaEvolve to "mine" activation functions in infinite Python function space, discovering GELUSine and GELU-Sinc-Perturbation that outperform existing methods on algorithmic reasoning tasks.
+
+---
+
+### 4. 统计学与 AI 基础 | Statistics & AI Foundations
+
+**苏炜杰获 2026 考普斯奖，14 年来首位华人得主**
+
+宾大副教授苏炜杰因"为大语言模型的多项应用建立严格的统计基础"等贡献荣获"统计学诺奖"。
+
+**Su Weijie Wins 2026 Copss Award, First Chinese Recipient in 14 Years**
+
+University of Pennsylvania Associate Professor Su Weijie receives the "Nobel Prize of Statistics" for "establishing rigorous statistical foundations for multiple applications of large language models."
+
+---
+
+### 5. 多模态与金融 AI | Multimodal & Financial AI
+
+**FCMBench-V1.0: 首个信贷多模态评测基准**
+
+奇富科技联合复旦、华南理工发布首个面向信贷场景的多模态评测基准，试图为金融 AI 建立"可被广泛认可的尺子"。
+
+**FCMBench-V1.0: First Credit Multimodal Evaluation Benchmark**
+
+Qifu Technology, Fudan University, and South China University of Technology release the first multimodal evaluation benchmark for credit scenarios, attempting to establish a "widely recognized ruler" for financial AI.
+
+---
+
+### 6. 生物科技 AI | AI for Biotechnology
+
+**GPT-5 驱动自主实验室降低蛋白质合成成本 40%**
+
+OpenAI 与 Ginkgo 生物工厂将 GPT-5 连接到云实验室，通过 6 轮闭环实验测试 36,000 种反应组合，将蛋白质生产成本降低 40%。
+
+**GPT-5-Driven Autonomous Lab Lowers Protein Synthesis Cost by 40%**
+
+OpenAI and Ginkgo Bioworks connect GPT-5 to cloud labs, testing 36,000 reaction combinations through 6 rounds of closed-loop experiments, reducing protein production cost by 40%.
 
 ---
 
 ## 🎓 详细论文摘要 | Detailed Paper Abstracts
 
-### DyTopo: Dynamic Topology Routing for Multi-Agent Reasoning
+### A Mechanistic View on Video Generation as World Models
 
-**arXiv**: 2602.06039 | **Submitted**: Feb 5, 2026
+**arXiv**: 2601.17067 | **Published**: Feb 7, 2026
 
-**Authors**: Yuxing Lu et al.
+**Authors**: Yuzhou Wang et al. (Kling AI & HKUST)
 
-**分类 | Category**: Multi-Agent Systems | **关键词 | Keywords**: Dynamic Topology, Semantic Matching, Communication Graph
+**分类 | Category**: World Models, Video Generation | **关键词 | Keywords**: State Construction, Dynamics Modeling
 
 ---
 
 **摘要 | Abstract**:
 
-Multi-agent systems built from prompted large language models can improve multi-round reasoning, yet most existing pipelines rely on fixed, trajectory-wide communication patterns that are poorly matched to the stage-dependent needs of iterative problem solving. We introduce **DyTopo**, a manager-guided multi-agent framework that reconstructs a sparse directed communication graph at each round.
+This paper proposes a mechanistic framework to bridge the gap between contemporary "state-less" video architectures and classical "state-centered" world model theory. We introduce a dual-pillar classification system based on **State Construction** and **Dynamics Modeling**.
 
 **核心贡献 | Key Contribution**:
 
-- 🔄 **动态拓扑 | Dynamic Topology** - 每轮重构通信图，根据任务需求自适应调整
-- 🎯 **语义匹配 | Semantic Matching** - 通过 need/key 描述符进行智能路由
-- 📊 **性能提升 | Performance Gain** - 平均比最强基线提升 6.2%
-- 🔍 **可解释性 | Interpretability** - 提供通信路径演化的可视化追踪
+- 🎬 **状态构建 | State Construction** - 隐式记忆 vs 显式状态两大范式
+- 🔄 **动态建模 | Dynamics Modeling** - 因果架构重构与知识集成
+- 📊 **评估体系 | Evaluation** - 从视觉保真度转向功能性基准
+- 🗺️ **路线图 | Roadmap** - 迈向通用世界模拟器的清晰路径
+
+**关键洞察 | Key Insights**:
+
+1. **持久性 | Persistence**: 长时程生成的稳定性与一致性是核心挑战
+2. **因果性 | Causality**: 从统计相关走向因果机制是必由之路
+3. **状态范式 | State Paradigm**: 隐式状态保真度高，显式状态可扩展性强
 
 **实验结果 | Experimental Results**:
 
-- **代码生成 | Code Generation**: 在多个基准测试中超越固定通信模式
-- **数学推理 | Mathematical Reasoning**: 4种LLM骨干网络一致性能提升
-- **通信效率 | Communication Efficiency**: 稀疏图减少不必要的消息传递
+- 深度梳理 2024-2025 年视频生成最新工作
+- 分析持久性与因果性的技术前沿
+- 提出评估质量、持久性、因果性三维指标
 
 **影响 | Impact**:
 
-DyTopo 证明动态通信拓扑是提升多智能体系统性能的关键，为 Agentic AI 的协作机制提供了新思路。
+为视频生成迈向世界模拟提供了系统性理论框架，是自动驾驶、具身智能等领域的重要参考。
 
-DyTopo demonstrates that dynamic communication topologies are key to improving multi-agent system performance, providing new insights for collaboration mechanisms in Agentic AI.
+Provides a systematic theoretical framework for video generation evolving toward world simulation, serving as an important reference for autonomous driving, embodied AI, and other fields.
 
-🔗 **论文链接 | Paper**: https://arxiv.org/abs/2602.06039
+🔗 **论文链接 | Paper**: https://arxiv.org/pdf/2601.17067
+💻 **GitHub**: https://github.com/hit-perfect/Awesome-Video-World-Models
 
 ---
 
-### AgenticPay: A Multi-Agent LLM Negotiation System
+### Self-Aligned Reward: Towards Effective and Efficient Reasoners
 
-**arXiv**: 2602.06008 | **Submitted**: Feb 5, 2026
+**arXiv**: 2509.05489 | **Submitted**: Sep 9, 2025 | **Accepted**: ICLR 2026
 
-**Authors**: Shangding Gu et al.
+**Authors**: Peixuan Han et al. (UIUC & Amazon AWS)
 
-**分类 | Category**: Multi-Agent Systems, Economics | **关键词 | Keywords**: Negotiation, Market Interaction, Economic Agents
+**分类 | Category**: Reinforcement Learning, Reasoning | **关键词 | Keywords**: Self-Aligned Reward, Over-Thinking, RLVR
 
 ---
 
 **摘要 | Abstract**:
 
-LLM-based agents are increasingly expected to negotiate, coordinate, and transact autonomously, yet existing benchmarks lack principled settings for evaluating language-mediated economic interaction among multiple agents. We introduce **AgenticPay**, a benchmark and simulation framework for multi-agent buyer-seller negotiation driven by natural language.
+We propose **Self-Aligned Reward (SAR)**, a novel reward function that leverages the model's internal perplexity signals to distinguish between useful and redundant reasoning steps without relying on output length.
 
 **核心贡献 | Key Contribution**:
 
-- 💰 **110+ 任务 | 110+ Tasks** - 从双边谈判到多对多市场
-- 📊 **多维度评估 | Multi-dimensional Metrics** - 可行性、效率、福利指标
-- 🗣️ **自然语言谈判 | Natural Language Negotiation** - 多轮语言交互，非数字出价
-- 🔧 **结构化动作提取 | Structured Action Extraction** - 自动解析谈判意图
+- 🧠 **困惑度差异 | Perplexity Difference** - 比较独立建模与上下文建模的概率差异
+- 📉 **30% 长度减少 | 30% Length Reduction** - 在不牺牲准确率的前提下
+- 📈 **4% 准确率提升 | 4% Accuracy Improvement** - 平均性能提升
+- 🔄 **普适性强 | Strong Generalizability** - 适用于 PPO、GRPO 等主流算法
+
+**关键洞察 | Key Insights**:
+
+传统长度惩罚方法会削弱推理充分性，而 SAR 通过语义关联强度来区分回答质量，更精准地刻画推理过程的"有用与否"。
+
+Traditional length penalty methods weaken reasoning sufficiency, while SAR distinguishes answer quality through semantic association strength, more accurately characterizing the "usefulness" of reasoning processes.
 
 **实验结果 | Experimental Results**:
 
-- **基准测试 | Benchmarking**: SOTA 商业和开源 LLM 在谈判任务上表现差距显著
-- **长期推理 | Long-horizon Reasoning**: 揭示在多轮战略推理中的挑战
-- **市场动态 | Market Dynamics**: 支持复杂市场场景的模拟
+- **4 个基础模型 | 4 Base Models**: 不同规模 LLM 一致性验证
+- **7 个数据集 | 7 Datasets**: 数学、逻辑推理等多任务评估
+- **双赢优化 | Win-Win Optimization**: 准确度与效率同时提升
 
 **影响 | Impact**:
 
-AgenticPay 填补了多智能体经济交互评估的空白，为研究基于语言的市场交互和 Agentic Commerce 奠定了基础。
+为解决强化学习推理模型的过度思考问题提供了简洁高效的解决思路，有望推广至更广泛的推理任务。
 
-AgenticPay fills the gap in multi-agent economic interaction evaluation, establishing a foundation for studying language-based market interactions and Agentic Commerce.
+Provides a simple and efficient solution to the over-thinking problem in reinforcement learning reasoning models, expected to be extended to broader reasoning tasks.
 
-🔗 **论文链接 | Paper**: https://arxiv.org/abs/2602.06008
-💻 **代码库 | Code**: https://github.com/SafeRL-Lab/AgenticPay
+🔗 **论文链接 | Paper**: https://arxiv.org/pdf/2509.05489
+💻 **代码库 | Code**: https://github.com/amazon-science/Self-Aligned-Reward-Towards_Effective_and_Efficient_Reasoners
 
 ---
 
-### Agent2Agent Threats in Safety-Critical LLM Assistants
+### Mining Generalizable Activation Functions
 
-**arXiv**: 2602.05877 | **Submitted**: Feb 5, 2026
+**arXiv**: 2602.05688 | **Submitted**: Feb 7, 2026
 
-**Authors**: Lukas Stappen et al.
+**Authors**: AlphaEvolve Team (Google DeepMind)
 
-**分类 | Category**: AI Safety, Security | **关键词 | Keywords**: Threat Modeling, Vehicle Safety, A2A Protocol
+**分类 | Category**: Neural Architecture, AutoML | **关键词 | Keywords**: Activation Functions, Architecture Search, LLM
 
 ---
 
 **摘要 | Abstract**:
 
-The integration of LLM-based conversational agents into vehicles creates novel security challenges at the intersection of agentic AI, automotive safety, and inter-agent communication. We propose **AgentHeLLM**, a threat modeling framework that formally separates asset identification from attack path analysis.
+We present **AlphaEvolve**, an LLM-driven evolutionary coding system that "mines" activation functions in the infinite Python function space, discovering novel functions like **GELUSine** and **GELU-Sinc-Perturbation**.
 
 **核心贡献 | Key Contribution**:
 
-- 🚗 **车辆场景 | Vehicle Scenario** - 聚焦汽车中 LLM 助手的特定威胁
-- 🔐 **形式化分离 | Formal Separation** - 资产识别与攻击路径分析分离
-- 📋 **人权启发 | Human Rights Inspired** - 基于《世界人权宣言》的资产分类
-- 🛠️ **开源工具 | Open Source Tool** - AgentHeLLM Attack Path Generator
+- 💎 **GELU + 周期扰动 | GELU + Periodic Perturbation** - 通用公式: GELU(x) × (1 + 0.5 × sinc(x))
+- 🧪 **微型实验室 | Micro-Lab** - 合成数据专门优化 OOD 泛化能力
+- 🏆 **SOTA 性能 | SOTA Performance** - CLRS-30 上得分 0.887，超越 ReLU (0.862) 和 GELU (0.874)
+- 🎯 **泛化优先 | Generalization First** - 分布外泛化优于拟合能力
+
+**关键发现 | Key Findings**:
+
+1. **周期性的魔力 | Magic of Periodicity** - sin(x) 或 sinc(x) 项帮助模型"存储"频率信息
+2. **失败的教训 | Lessons from Failure** - "湍流激活函数"因过拟合 Batch 统计而失败
+3. **代码即搜索空间 | Code as Search Space** - LLM 编写代码比预定义算子更灵活
 
 **实验结果 | Experimental Results**:
 
-- **攻击路径发现 | Attack Path Discovery** - 双层搜索策略自动化多阶段威胁发现
-- **毒化路径 vs 触发路径 | Poison vs Trigger Paths** - 区分恶意数据传播和激活行为
-- **实用性验证 | Practical Validation** - 在真实车辆通信协议上验证框架有效性
+- **CLRS-30**: GELU-Sinc-Perturbation 达到 0.887，显著优于基线
+- **ImageNet**: 新函数保持与 GELU 持平的准确率（74.5% Top-1）
+- **CIFAR-10**: 在算法推理任务上展现卓越泛化能力
 
 **影响 | Impact**:
 
-首个针对安全关键 LLM 系统的系统性威胁建模框架，为自动驾驶等场景提供安全保障，可扩展到其他安全关键领域。
+证明了在神经网络最基础的组件层面依然存在广阔的未至之境，为 AI 设计 AI 提供了新范式。
 
-The first systematic threat modeling framework for safety-critical LLM systems, providing security guarantees for scenarios like autonomous driving, extensible to other safety-critical domains.
+Demonstrates that there remains vast unexplored territory at the most fundamental component level of neural networks, providing a new paradigm for AI-designed AI.
 
-🔗 **论文链接 | Paper**: https://arxiv.org/abs/2602.05877
+🔗 **论文链接 | Paper**: https://arxiv.org/abs/2602.05688
 
 ---
 
-### Speech Emotion Recognition Leveraging OpenAI's Whisper
+### Towards Bridging the Gap between Large-Scale Pretraining and Efficient Finetuning for Humanoid Control
 
-**arXiv**: 2602.06000 | **Submitted**: Feb 5, 2026
+**arXiv**: 2601.21363 | **Submitted**: Jan 31, 2026 | **Accepted**: ICLR 2026
 
-**Authors**: Ali Shendabadi et al.
+**Authors**: Weidong Huang et al. (BIGAI & Xidian University)
 
-**分类 | Category**: Speech Processing, Emotion Recognition | **关键词 | Keywords**: Whisper, Attention Pooling, SER
+**分类 | Category**: Robotics, Reinforcement Learning | **关键词 | Keywords**: Humanoid, SAC, World Model, Sim2Real
 
 ---
 
 **摘要 | Abstract**:
 
-Speech Emotion Recognition (SER) research has faced limitations due to the lack of standard and sufficiently large datasets. This work explores the capabilities of **Whisper**, a pre-trained ASR system, in speech emotion recognition by proposing two attention-based pooling methods.
+We propose **LIFT** (Large-Scale PretraIning and Efficient FineTuning), a framework that uses off-policy RL (SAC) for simulation pretraining and physics-informed world models for safe real-world fine-tuning.
 
 **核心贡献 | Key Contribution**:
 
-- 🎤 **Whisper 应用 | Whisper Application** - 首次将 ASR 预训练模型用于 SER
-- 🧠 **多头注意力池化 | Multi-head Attention Pooling** - MAAP 和 QKV 两种新方法
-- 📈 **SOTA 性能 | SOTA Performance** - 在波斯语 ShEMO 数据集上提升 2.47%
-- 🌐 **多语言验证 | Multilingual Validation** - 英语和波斯语双数据集验证
+- 🤖 **SAC 预训练 | SAC Pretraining** - 离策略算法充分利用数据复用
+- 🌍 **物理信息世界模型 | Physics-Informed World Model** - 结合机器人动力学公式
+- ⏱️ **80-590 秒微调 | 80-590 Seconds Fine-tuning** - 真机数据极少即可收敛
+- 🔒 **安全可控 | Safe and Controllable** - 探索留在了世界模型里
+
+**关键洞察 | Key Insights**:
+
+真机强化学习不安全且昂贵，LIFT 把"试错"和"探索"尽可能放进世界模型里发生，从而在保证安全的前提下实现快速微调。
+
+Real-world RL is unsafe and expensive; LIFT puts "trial and error" and "exploration" into the world model as much as possible, enabling rapid fine-tuning while ensuring safety.
 
 **实验结果 | Experimental Results**:
 
-- **Whisper Tiny/Small**: 在 IEMOCAP (英语) 和 ShEMO (波斯语) 上评估
-- **中间层优势 | Intermediate Layer Advantage**: 中间层在波斯语上表现更好
-- **轻量级方案 | Lightweight Alternative**: 比 HuBERT X-Large 小得多但性能相当
+- **Booster T1 & Unitree G1**: 两款人形平台验证
+- **零样本部署 | Zero-Shot Deployment**: 预训练策略可直接真机运行
+- **4×10⁄ 样本收敛 | 4×10⁴ Samples Convergence**: 约 800 秒真实世界数据
+- **稳定性修正 | Stability Correction**: 逐步修正策略的不稳定行为
 
 **影响 | Impact**:
 
-展示了 ASR 预训练模型在情感识别任务上的潜力，为多语言语音情感识别提供高效、轻量级解决方案。
+为人形机器人真机强化学习提供了安全高效的范式，是通往可持续、可扩展、自动化学习系统的重要一步。
 
-Demonstrates the potential of ASR pre-trained models in emotion recognition tasks, providing efficient, lightweight solutions for multilingual speech emotion recognition.
+Provides a safe and efficient paradigm for real-world humanoid robot reinforcement learning, an important step towards sustainable, scalable, automated learning systems.
 
-🔗 **论文链接 | Paper**: https://arxiv.org/abs/2602.06000
-
----
-
-### Quantum Reinforcement Learning with Transformers for CVRP
-
-**arXiv**: 2602.05920 | **Submitted**: Feb 5, 2026
-
-**Authors**: Eva Andres et al.
-
-**分类 | Category**: Quantum Computing, RL, Optimization | **关键词 | Keywords**: Quantum RL, CVRP, Transformer
-
----
-
-**摘要 | Abstract**:
-
-This paper addresses the Capacitated Vehicle Routing Problem (CVRP) by comparing classical, full quantum, and hybrid Reinforcement Learning approaches, integrating transformer architectures.
-
-**核心贡献 | Key Contribution**:
-
-- ⚛️ **三种架构对比 | Three Architecture Comparison** - 经典、全量子、混合 A2C
-- 🔄 **Transformer 集成 | Transformer Integration** - 自注意力和交叉注意力机制
-- 📊 **多维度评估 | Multi-dimensional Evaluation** - 路径距离、紧凑性、重叠度
-- 🏆 **混合架构最优 | Hybrid Architecture Best** - 在所有指标上表现最佳
-
-**实验结果 | Experimental Results**:
-
-- **20 客户 4 车辆 | 20 Clients 4 Vehicles**: 多车辆场景下的容量约束测试
-- **10 次独立运行 | 10 Independent Runs**: 确保结果统计显著性
-- **量子增强 | Quantum Enhancement**: 量子模型优于经典基线
-- **路径组织 | Route Organization**: 量子模型生成更结构化的解决方案
-
-**影响 | Impact**:
-
-展示了量子增强强化学习在复杂组合优化问题上的潜力，为量子-经典混合计算提供实践案例，推动量子计算在 OR 领域的应用。
-
-Demonstrates the potential of quantum-enhanced RL in complex combinatorial optimization problems, providing practical cases for quantum-classical hybrid computing, advancing quantum computing applications in Operations Research.
-
-🔗 **论文链接 | Paper**: https://arxiv.org/abs/2602.05920
-
----
-
-### A Guide to LLMs in Modeling and Simulation
-
-**arXiv**: 2602.05883 | **Submitted**: Feb 5, 2026
-
-**Authors**: Philippe Giabbanelli et al.
-
-**分类 | Category**: Survey, Best Practices | **关键词 | Keywords**: LLM, M&S, Guidelines
-
----
-
-**摘要 | Abstract**:
-
-LLMs are increasingly used in Modeling & Simulation (M&S) workflows, yet practices that appear straightforward may introduce subtle issues. We provide comprehensive and practical guidance on how to use LLMs in M&S applications.
-
-**核心贡献 | Key Contribution**:
-
-- 📚 **全面指南 | Comprehensive Guide** - 覆盖 LLM 在 M&S 中的所有关键方面
-- ⚠️ **常见陷阱 | Common Pitfalls** - 模型崩溃、过度微调、温度设置误解
-- 🔧 **最佳实践 | Best Practices** - 原则化设计选择、诊断策略、实证评估
-- 🎯 **M&S 专注 | M&S Focused** - 针对建模仿真场景的专门指导
-
-**关键话题 | Key Topics**:
-
-1. **非确定性 | Non-determinism** - 温度=0 不足以使 LLM 确定性
-2. **知识增强 | Knowledge Augmentation** - RAG 和 LoRA 的正确使用
-3. **数据分解 | Data Decomposition** - M&S 数据的高效处理
-4. **超参数设置 | Hyperparameter Settings** - 针对不同任务的调优策略
-
-**影响 | Impact**:
-
-为 M&S 领域的研究者和从业者提供了权威的 LLM 使用指南，避免常见错误，提升建模仿真工作流的质量和效率。
-
-Provides authoritative guidance for M&S researchers and practitioners on using LLMs, avoiding common pitfalls, and improving the quality and efficiency of modeling and simulation workflows.
-
-🔗 **论文链接 | Paper**: https://arxiv.org/abs/2602.05883
-
----
-
-### Geographically-aware Transformer for Traffic Forecasting
-
-**arXiv**: 2602.05983 | **Submitted**: Feb 5, 2026
-
-**Authors**: Krešimir Kušić et al.
-
-**分类 | Category**: Traffic Prediction, Spatiotemporal Modeling | **关键词 | Keywords**: Transformer, Mutual Information, Digital Twin
-
----
-
-**摘要 | Abstract**:
-
-The operational effectiveness of digital-twin technology in motorway traffic management depends on high-resolution real-time traffic data and predicted conditions. We introduce **GATTF**, a Geographically-aware Transformer that exploits geographical relationships using mutual information.
-
-**核心贡献 | Key Contribution**:
-
-- 🗺️ **地理感知 | Geographical Awareness** - 利用传感器间互信息捕获地理关系
-- 🚦 **数字孪生 | Digital Twin** - 支持交通管理的前瞻性决策
-- ⚡ **无复杂度增加 | No Complexity Increase** - 提升精度但不增加模型复杂度
-- 🇨🇭 **真实数据验证 | Real Data Validation** - 日内瓦高速公路网络实测
-
-**实验结果 | Experimental Results**:
-
-- **预测精度提升 | Forecasting Accuracy** - 显著优于标准 Transformer
-- **时空复杂性 | Spatiotemporal Complexity** - 处理时变非线性交通动态
-- **长期依赖 | Long-range Dependencies** - 捕获长期时间依赖关系
-
-**影响 | Impact**:
-
-将地理信息整合到深度学习模型中，为智能交通系统和数字孪生技术提供更准确的预测能力，支持主动式交通管理决策。
-
-Integrates geographical information into deep learning models, providing more accurate prediction capabilities for intelligent transportation systems and digital twin technology, supporting proactive traffic management decisions.
-
-🔗 **论文链接 | Paper**: https://arxiv.org/abs/2602.05983
-
----
-
-### Beyond Manual Planning: Seating Allocation for Large Organizations
-
-**arXiv**: 2602.05875 | **Submitted**: Feb 5, 2026
-
-**Authors**: Anton Ipsen et al.
-
-**分类 | Category**: Optimization, Operations Research | **关键词 | Keywords**: Seating Allocation, Integer Programming, PRM
-
----
-
-**摘要 | Abstract**:
-
-We introduce the Hierarchical Seating Allocation Problem (HSAP) which addresses optimal assignment of hierarchically structured teams to physical seating arrangements, alleviating manual replanning efforts.
-
-**核心贡献 | Key Contribution**:
-
-- 🏢 **层次化座位分配 | Hierarchical Seating** - 确保紧密层级关系的团队就近就座
-- 🗺️ **PRM + RRT 距离计算 | PRM + RRT Distance** - 可扩展的座位间距离计算
-- 🔢 **整数规划求解 | Integer Programming** - 启发式搜索与动态规划结合
-- 📊 **定量定性评估 | Quantitative & Qualitative** - 不同规模实例的综合评估
-
-**实验结果 | Experimental Results**:
-
-- **可扩展性 | Scalability** - 处理大型组织的复杂座位规划
-- **PRM 框架验证 | PRM Framework Validation** - 概率路线图的有效性
-- **人工 vs 自动 | Manual vs Automated** - 显著优于手动规划
-
-**影响 | Impact**:
-
-为大型组织提供自动化座位分配解决方案，提升空间利用效率和团队协作效率，减少手动规划的工作量和次优结果。
-
-Provides automated seating allocation solutions for large organizations, improving space utilization and team collaboration efficiency, reducing manual planning effort and suboptimal results.
-
-🔗 **论文链接 | Paper**: https://arxiv.org/abs/2602.05875
+🔗 **论文链接 | Paper**: https://arxiv.org/abs/2601.21363
+💻 **代码库 | Code**: https://github.com/bigai-ai/LIFT-humanoid
+🌐 **项目主页 | Project Page**: https://lift-humanoid.github.io/
 
 ---
 
 ## 📊 研究趋势总结 | Research Trends Summary
 
-### 2026年2月 Top 5 研究方向 | Top 5 Research Directions
+### 2026年2月8日 Top 6 研究方向 | February 8, 2026 Top 6 Research Directions
 
-1. **多智能体系统 | Multi-Agent Systems** ⭐⭐⭐⭐⭐
-   - 动态通信拓扑（DyTopo）
-   - 多智能体谈判（AgenticPay）
-   - 智能体安全（AgentHeLLM）
+1. **世界模型 | World Models** ⭐⭐⭐⭐⭐
+   - Waymo World Model (Genie 3)
+   - 视频世界模型综述
+   - 状态构建与动态建模
 
-2. **量子计算应用 | Quantum Computing Applications** ⭐⭐⭐⭐
-   - 量子强化学习（CVRP）
-   - 量子-经典混合架构
+2. **强化学习 | Reinforcement Learning** ⭐⭐⭐⭐⭐
+   - LIFT 人形机器人真机 RL
+   - Self-Aligned Reward 解决过度思考
+   - 物理信息增强世界模型
 
-3. **AI 安全 | AI Safety** ⭐⭐⭐⭐
-   - 威胁建模框架
-   - 安全关键系统防护
+3. **神经架构搜索 | Neural Architecture Search** ⭐⭐⭐⭐
+   - DeepMind 挖掘激活函数
+   - AlphaEvolve 进化编码系统
+   - GELU-Sinc-Perturbation
 
-4. **语音处理 | Speech Processing** ⭐⭐⭐
-   - 预训练模型迁移（Whisper → SER）
-   - 注意力池化方法
+4. **AI 基础理论 | AI Foundations** ⭐⭐⭐⭐
+   - 考普斯奖统计基础
+   - 大模型的数学理论
+   - 深度学习理论解释
 
-5. **时空建模 | Spatiotemporal Modeling** ⭐⭐⭐
-   - 交通预测（GATTF）
-   - 地理感知 Transformer
+5. **多模态 AI | Multimodal AI** ⭐⭐⭐⭐
+   - 金融多模态评测基准 FCMBench
+   - 信贷场景 AI 评估
+   - 多模态感知与推理
+
+6. **生物科技 AI | AI for Bio** ⭐⭐⭐⭐
+   - GPT-5 自主实验室
+   - 蛋白质合成成本降低 40%
+   - 云实验室闭环优化
 
 ---
 
@@ -397,16 +340,38 @@ Provides automated seating allocation solutions for large organizations, improvi
 
 ### 重点关注 | Focus Areas
 
-- **AI Agents & Multi-Agent Systems** - 智能体与多智能体系统
-- **Quantum Machine Learning** - 量子机器学习
+- **World Models & Video Generation** - 世界模型与视频生成
+- **Reinforcement Learning** - 强化学习
+- **Neural Architecture Search** - 神经架构搜索
 - **AI Safety & Alignment** - AI 安全与对齐
-- **Foundation Models** - 基础模型
-- **Embodied AI** - 具身智能
+- **Multimodal AI** - 多模态 AI
+- **AI for Science** - AI 科学研究
+
+---
+
+## 🏆 学术荣誉 | Academic Honors
+
+### 2026 考普斯奖 | 2026 Copss Presidents' Award
+
+**获奖者 | Recipient:** 苏炜杰 (Su Weijie)
+**机构 | Institution:** 宾夕法尼亚大学沃顿商学院 (University of Pennsylvania Wharton School)
+
+**获奖理由 | Citation:**
+
+"为大语言模型的多项应用建立了严格的统计基础；在隐私保护数据分析方面取得突破性进展，并成功应用于 2020 年美国人口普查；设计了 AI 顶级会议的同行评审机制，并于 ICML 2026 正式落地；在凸优化领域开展了奠基性研究；以及在深度学习的数学理论与高维统计推断方面作出了广泛而深远的贡献。**
+
+"For establishing rigorous statistical foundations for multiple applications of large language models; making breakthrough progress in privacy-preserving data analysis, successfully applied to the 2020 US Census; designing peer review mechanisms for top AI conferences, officially implemented at ICML 2026; conducting foundational research in convex optimization; and making extensive and profound contributions to the mathematical theory of deep learning and high-dimensional statistical inference."
+
+**历史意义 | Historical Significance:**
+
+时隔 14 年，考普斯奖再次迎来华人得主。考普斯奖有着"统计学诺贝尔奖"之称，每年只颁发给一位 40 岁以下的统计学家，是国际统计学和数据科学领域的最高荣誉。
+
+After 14 years, the Copss Award once again has a Chinese recipient. Known as the "Nobel Prize of Statistics," the Copss Award is given annually to one statistician under 40, representing the highest honor in international statistics and data science.
 
 ---
 
 **© 2026 AI News Hub | 研究前沿 | Research Frontiers**
 
-**数据来源 | Data Sources:** arXiv, Papers with Code, OpenReview, Semantic Scholar
+**数据来源 | Data Sources:** arXiv, Papers with Code, OpenReview, Semantic Scholar, 机器之心
 **整理工具 | Curated by:** OpenClaw AI Assistant
 **更新频率 | Update Frequency:** 每日 | Daily
