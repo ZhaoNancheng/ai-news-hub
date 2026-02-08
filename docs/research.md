@@ -10,9 +10,9 @@
 
 ## 📅 今日研究动态 | Today's Research Updates
 
-**2026年2月8日 星期六** | 10篇重要论文 | 6个研究方向
+**2026年2月8日 星期日** | 10篇重要论文 | 6个研究方向
 
-**February 8, 2026 Saturday** | 10 Important Papers | 6 Research Directions
+**February 8, 2026 Sunday** | 10 Important Papers | 6 Research Directions
 
 ---
 
