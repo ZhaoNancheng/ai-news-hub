@@ -1,37 +1,178 @@
 # 📰 AI News 最新资讯
 
-> **最后更新：** 2026-02-13 11:27:14
+> **最后更新：** 2026-02-13 11:42
 > **数据来源：** TechCrunch AI News RSS + arXiv.org
 
 ---
 
-## 🔥 本周热门（TOP 5）
+## 🔥 今日热点（TOP 3）
 
-> 基于 7 天数据综合分析（热度 + 影响力 + 重要性）  
-> **完整报告：** [第 7 周汇总](./weekly/2026-02-week7.md)
+基于今日新闻热度分析
 
-### 1. OpenAI 发布 GPT-5，性能提升 300%
-**热度评分：** 98/100  
-**推荐理由：**
-- 💥 技术突破重大
-- 📊 TechCrunch 报道，3.2k 点赞
-- 🔥 Hacker News 首页，500+ 评论
-- 📚 10 篇相关论文引用
+## 🔥 今日头条
 
-**相关新闻：** [OpenAI 官宣 GPT-5 发布](./news/2026-02-10.md)  
-**相关论文：** [Scaling Laws for GPT-5](./papers/2026-02-10.md)
+
+### 1. Amid disappointing earnings, Pinterest claims it sees more searches than ChatGPT
+
+**📅 发布时间：** Thu, 12 Feb 2026 23:26:56 +0000
+**✍️ 作者：** Sarah Perez
+**🔗 原文链接：** [Amid disappointing earnings, Pinterest claims it sees more searches than ChatGPT](https://techcrunch.com/2026/02/12/amid-disappointing-earnings-pinterest-claims-it-sees-more-searches-than-chatgpt/)
+
+**📝 内容摘要：**
+Pinterest's stock tumbles after an earnings miss, with higher-than-expected usage its only bright spot.
 
 ---
 
-### 2. Google 发布 Gemini 2.0，支持多模态
-**热度评分：** 95/100  
-**推荐理由：**
-- 💥 多模态融合技术突破
-- 📊 VentureBeat 报道，2.8k 点赞
-- 📚 8 篇技术博客分析
+### 2. IBM will hire your entry-level talent in the age of AI
 
-**相关新闻：** [Gemini 2.0 发布博客](./news/2026-02-09.md)  
-**相关论文：** [Multimodal Learning with Gemini](./papers/2026-02-09.md)
+**📅 发布时间：** Thu, 12 Feb 2026 23:23:17 +0000
+**✍️ 作者：** Rebecca Szkutak
+**🔗 原文链接：** [IBM will hire your entry-level talent in the age of AI](https://techcrunch.com/2026/02/12/ibm-will-hire-your-entry-level-talent-in-the-age-of-ai/)
+
+**📝 内容摘要：**
+IBM plans to triple its entry-level hiring in the U.S. in 2026, but these jobs will have different tasks than in previous years.
+
+---
+
+### 3. Musk needed a new vision for SpaceX and xAI. He landed on Moonbase Alpha.
+
+**📅 发布时间：** Thu, 12 Feb 2026 22:10:55 +0000
+**✍️ 作者：** Tim Fernholz
+**🔗 原文链接：** [Musk needed a new vision for SpaceX and xAI. He landed on Moonbase Alpha.](https://techcrunch.com/2026/02/12/musk-needed-a-new-vision-for-spacex-and-xai-he-landed-on-moonbase-alpha/)
+
+**📝 内容摘要：**
+"I really want to see a mass driver on the moon that is shooting AI satellites into deep space."
+
+---
+
+
+---
+
+## 📰 更多资讯
+
+
+### 4. Didero lands $30M to put manufacturing procurement on ‘agentic’ autopilot
+
+**📅 时间：** Thu, 12 Feb 2026 20:31:47 +0000
+**🔗 链接：** [Didero lands $30M to put manufacturing procurement on ‘agentic’ autopilot](https://techcrunch.com/2026/02/12/didero-lands-30m-to-put-manufacturing-procurement-on-agentic-autopilot/)
+
+Didero functions as an agentic AI layer that sits on top of a company’s existing ERP, acting as a coordinator that reads incoming communications and a...
+
+---
+
+### 5. Anthropic raises another $30B in Series G, with a new value of $380B
+
+**📅 时间：** Thu, 12 Feb 2026 20:18:37 +0000
+**🔗 链接：** [Anthropic raises another $30B in Series G, with a new value of $380B](https://techcrunch.com/2026/02/12/anthropic-raises-another-30-billion-in-series-g-with-a-new-value-of-380-billion/)
+
+The infusion of funding for the AI startup takes place as it is vying for customers and cultural attention with its competitor, OpenAI.
+
+---
+
+### 6. Spotify says its best developers haven’t written a line of code since December, thanks to AI
+
+**📅 时间：** Thu, 12 Feb 2026 18:30:12 +0000
+**🔗 链接：** [Spotify says its best developers haven’t written a line of code since December, thanks to AI](https://techcrunch.com/2026/02/12/spotify-says-its-best-developers-havent-written-a-line-of-code-since-december-thanks-to-ai/)
+
+Spotify credits Claude Code and its internal AI system Honk with speeding up development.
+
+---
+
+### 7. A new version of OpenAI’s Codex is powered by a new dedicated chip
+
+**📅 时间：** Thu, 12 Feb 2026 18:00:00 +0000
+**🔗 链接：** [A new version of OpenAI’s Codex is powered by a new dedicated chip](https://techcrunch.com/2026/02/12/a-new-version-of-openais-codex-is-powered-by-a-new-dedicated-chip/)
+
+OpenAI calls the new coding tool the "first milestone" in its relationship with the chipmaker.
+
+---
+
+### 8. xAI lays out interplanetary ambitions in public all-hands
+
+**📅 时间：** Wed, 11 Feb 2026 23:29:08 +0000
+**🔗 链接：** [xAI lays out interplanetary ambitions in public all-hands](https://techcrunch.com/2026/02/11/xai-lays-out-interplanetary-ambitions-in-public-all-hands/)
+
+On Wednesday, xAI took the rare step of publishing its full 45-minute all-hands presentation to the X platform, making it widely available.
+
+---
+
+### 9. AI inference startup Modal Labs in talks to raise at $2.5B valuation, sources say
+
+**📅 时间：** Wed, 11 Feb 2026 22:48:35 +0000
+**🔗 链接：** [AI inference startup Modal Labs in talks to raise at $2.5B valuation, sources say](https://techcrunch.com/2026/02/11/ai-inference-startup-modal-labs-in-talks-to-raise-at-2-5b-valuation-sources-say/)
+
+General Catalyst is in talks to lead the round for the four-year-old startup, according to our sources.
+
+---
+
+### 10. OpenAI disbands mission alignment team
+
+**📅 时间：** Wed, 11 Feb 2026 21:57:18 +0000
+**🔗 链接：** [OpenAI disbands mission alignment team](https://techcrunch.com/2026/02/11/openai-disbands-mission-alignment-team-which-focused-on-safe-and-trustworthy-ai-development/)
+
+The team's leader has been given a new role as OpenAI's chief futurist, while the other team members have been reassigned throughout the company.
+
+---
+
+### 11. Apple’s Siri revamp reportedly delayed… again
+
+**📅 时间：** Wed, 11 Feb 2026 21:19:46 +0000
+**🔗 链接：** [Apple’s Siri revamp reportedly delayed… again](https://techcrunch.com/2026/02/11/apples-siri-revamp-reportedly-delayed-again/)
+
+While the new Siri was expected to launch with the upcoming iOS 26.4 update in March, now, the changes are expected to roll out more slowly over time,...
+
+---
+
+### 12. Uber Eats launches AI assistant to help with grocery cart creation
+
+**📅 时间：** Wed, 11 Feb 2026 21:07:37 +0000
+**🔗 链接：** [Uber Eats launches AI assistant to help with grocery cart creation](https://techcrunch.com/2026/02/11/uber-eats-launches-ai-assistant-to-help-with-grocery-cart-creation/)
+
+Uber Eats launched a new AI feature, “Cart Assistant,” that can automatically add items to your cart based on text or image prompts.
+
+---
+
+### 13. Glean’s fight to own the AI layer inside every company
+
+**📅 时间：** Wed, 11 Feb 2026 21:07:28 +0000
+**🔗 链接：** [Glean’s fight to own the AI layer inside every company](https://techcrunch.com/podcast/glean-arvind-jain-equity-podcast-own-the-ai-layer-inside-every-company/)
+
+Enterprise AI is shifting fast from chatbots that answer questions to systems that actually do the work across an organization. But who will own the A...
+
+---
+
+### 14. Who will own your company’s AI layer? Glean’s CEO explains
+
+**📅 时间：** Wed, 11 Feb 2026 20:49:07 +0000
+**🔗 链接：** [Who will own your company’s AI layer? Glean’s CEO explains](https://techcrunch.com/video/who-will-own-your-companys-ai-layer-gleans-ceo-explains/)
+
+Enterprise AI is shifting fast from chatbots that answer questions to systems that actually do the work across an organization. But who will own the A...
+
+---
+
+### 15. Elon Musk suggests spate of xAI exits have been push, not pull
+
+**📅 时间：** Wed, 11 Feb 2026 20:47:00 +0000
+**🔗 链接：** [Elon Musk suggests spate of xAI exits have been push, not pull](https://techcrunch.com/2026/02/11/senior-engineers-including-co-founders-exit-xai-amid-controversy/)
+
+At least nine engineers, including two co-founders, have announced their exits from xAI in the past week, fueling online speculation and raising quest...
+
+---
+
+
+---
+
+## 📊 数据统计
+
+- **新闻来源：** TechCrunch AI News
+- **更新频率：** 每日 22:00 和 02:00
+- **RSS 地址：** https://techcrunch.com/category/artificial-intelligence/feed/
+
+---
+
+*自动生成：AI News Bot | 最后更新：2026-02-13 11:42*
+
+
 
 ---
 
@@ -42,13 +183,14 @@
 
 ---
 
-## 📰 最新 AI 新闻
+## 📰 更多今日新闻
 
-### [2026年02月13日](./news/2026-02-13.md)
-- ✅ TechCrunch AI News
-- 更新时间：2026-02-13 11:27:14
+查看完整内容：** [2026年02月13日 AI 新闻简报](./news/2026-02-13.md)**
 
-**更多新闻：** [查看归档 →](./news/)
+**摘要：**
+- ✅ TechCrunch AI News - 15 条新闻
+- ✅ arXiv 论文推荐 - 40 篇论文
+- 更新时间：2026-02-13 11:42
 
 ---
 
@@ -64,15 +206,14 @@
 
 ## 📅 历史归档
 
-### 本月新闻
-- [2026-02-13.md]({f})
+### 最近 7 天
+
 - [2026-02-11.md]({f})
 - [2026-02-10.md]({f})
 - [2026-02-08.md]({f})
 - [2026-02-07.md]({f})
 - [2026-02-06.md]({f})
 - [2026-02-05.md.backup]({f})
-- [2026-02-05.md]({f})
 
 
 ### 周汇总
@@ -85,6 +226,7 @@
 ### 外部资源
 - [TechCrunch AI](https://techcrunch.com/category/artificial-intelligence/)
 - [arXiv CS.AI](https://arxiv.org/list/cs.AI/recent)
+- [arXiv CS.LG](https://arxiv.org/list/cs.LG/recent)
 
 ### 项目仓库
 - **GitHub:** https://github.com/ZhaoNancheng/ai-news-hub
@@ -93,4 +235,4 @@
 
 ---
 
-*自动生成：AI News Bot | 最后更新：2026-02-13 11:27:14*
+*自动生成：AI News Bot | 最后更新：2026-02-13 11:42*
