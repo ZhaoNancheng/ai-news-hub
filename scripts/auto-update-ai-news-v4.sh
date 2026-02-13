@@ -27,8 +27,8 @@ mkdir -p "$NEWS_DIR"
 mkdir -p "$PAPERS_DIR"
 mkdir -p "$WEEKLY_DIR"
 
-echo "📰 Step 1: 多源抓取 AI 新闻（All-in-One）..."
-python3.9 /data1/cc/vide-coding/ai-news-hub/scripts/fetch-multiple-sources.py
+echo "📰 Step 1: 增强版多源抓取（Enhanced）..."
+python3.9 /data1/cc/vide-coding/ai-news-hub/scripts/fetch-enhanced.py
 
 echo ""
 echo "📚 Step 2: 抓取 arXiv AI 论文..."

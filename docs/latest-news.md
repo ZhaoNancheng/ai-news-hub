@@ -1,6 +1,6 @@
 # 📰 AI News 最新资讯
 
-> **最后更新：** 2026-02-13 15:00
+> **最后更新：** 2026-02-13 15:05
 > **数据来源：** TechCrunch AI News RSS + arXiv.org
 
 ---
@@ -9,10 +9,49 @@
 
 基于今日新闻热度分析
 
-## 🔥 今日头条（TOP 5）
+## 🔥 今日热点总结
 
-### 1. Amid disappointing earnings, Pinterest claims it sees more searches than ChatGPT
+**最热门主题：** 🤖 大模型 & 基础模型 • 🤬 智能体 & 多智能体 • 🎯 企业 & 商业应用
 
+**今日 3 大事件：**
+
+### 1. Is a secure AI assistant possible?
+**来源：** MIT Technology Review • **优先级：** 90.0/100
+
+### 2. Amid disappointing earnings, Pinterest claims it sees more searches than ChatGPT
+**来源：** TechCrunch AI • **优先级：** 85.0/100
+
+### 3. Didero lands $30M to put manufacturing procurement on ‘agentic’ autopilot
+**来源：** TechCrunch AI • **优先级：** 85.0/100
+
+
+
+---
+
+
+---
+
+## 🔥 今日头条（TOP 10）
+
+### 1. Is a secure AI assistant possible?
+
+**📊 优先级：** 90.0/100
+**🏷️ 分类：** 🤖 大模型 & 基础模型 | 🤬 智能体 & 多智能体
+**📚 标签：** #AI智能体
+**📅 发布时间：** Wed, 11 Feb 2026 20:08:35 +0000
+**✍️ 来源：** MIT Technology Review
+**🔗 原文链接：** [Is a secure AI assistant possible?](https://www.technologyreview.com/2026/02/11/1132768/is-a-secure-ai-assistant-possible/)
+
+**📝 内容摘要：**
+AI agents are a risky business. Even when stuck inside the chatbox window, LLMs will make mistakes and behave badly. Once they have tools that they can use to interact with the outside world, such as web browsers and email addresses, the consequences of those mistakes become far more serious. That might explain why the...
+
+---
+
+### 2. Amid disappointing earnings, Pinterest claims it sees more searches than ChatGPT
+
+**📊 优先级：** 85.0/100
+**🏷️ 分类：** 🤖 大模型 & 基础模型 | 🌐 搜索 & 信息检索
+**📚 标签：** @openai
 **📅 发布时间：** Thu, 12 Feb 2026 23:26:56 +0000
 **✍️ 来源：** TechCrunch AI
 **🔗 原文链接：** [Amid disappointing earnings, Pinterest claims it sees more searches than ChatGPT](https://techcrunch.com/2026/02/12/amid-disappointing-earnings-pinterest-claims-it-sees-more-searches-than-chatgpt/)
@@ -22,30 +61,11 @@ Pinterest's stock tumbles after an earnings miss, with higher-than-expected usag
 
 ---
 
-### 2. IBM will hire your entry-level talent in the age of AI
+### 3. Didero lands $30M to put manufacturing procurement on ‘agentic’ autopilot
 
-**📅 发布时间：** Thu, 12 Feb 2026 23:23:17 +0000
-**✍️ 来源：** TechCrunch AI
-**🔗 原文链接：** [IBM will hire your entry-level talent in the age of AI](https://techcrunch.com/2026/02/12/ibm-will-hire-your-entry-level-talent-in-the-age-of-ai/)
-
-**📝 内容摘要：**
-IBM plans to triple its entry-level hiring in the U.S. in 2026, but these jobs will have different tasks than in previous years.
-
----
-
-### 3. Musk needed a new vision for SpaceX and xAI. He landed on Moonbase Alpha.
-
-**📅 发布时间：** Thu, 12 Feb 2026 22:10:55 +0000
-**✍️ 来源：** TechCrunch AI
-**🔗 原文链接：** [Musk needed a new vision for SpaceX and xAI. He landed on Moonbase Alpha.](https://techcrunch.com/2026/02/12/musk-needed-a-new-vision-for-spacex-and-xai-he-landed-on-moonbase-alpha/)
-
-**📝 内容摘要：**
-"I really want to see a mass driver on the moon that is shooting AI satellites into deep space."
-
----
-
-### 4. Didero lands $30M to put manufacturing procurement on ‘agentic’ autopilot
-
+**📊 优先级：** 85.0/100
+**🏷️ 分类：** 🤬 智能体 & 多智能体 | 🎯 企业 & 商业应用
+**📚 标签：** #AI智能体
 **📅 发布时间：** Thu, 12 Feb 2026 20:31:47 +0000
 **✍️ 来源：** TechCrunch AI
 **🔗 原文链接：** [Didero lands $30M to put manufacturing procurement on ‘agentic’ autopilot](https://techcrunch.com/2026/02/12/didero-lands-30m-to-put-manufacturing-procurement-on-agentic-autopilot/)
@@ -55,8 +75,81 @@ Didero functions as an agentic AI layer that sits on top of a company’s existi
 
 ---
 
-### 5. Anthropic raises another $30B in Series G, with a new value of $380B
+### 4. The Download: AI-enhanced cybercrime, and secure AI assistants
 
+**📊 优先级：** 85.0/100
+**🏷️ 分类：** 💻 开发工具 & 框架 | 🎨 生成式 AI & 创意
+**📚 标签：** 
+**📅 发布时间：** Thu, 12 Feb 2026 13:10:00 +0000
+**✍️ 来源：** MIT Technology Review
+**🔗 原文链接：** [The Download: AI-enhanced cybercrime, and secure AI assistants](https://www.technologyreview.com/2026/02/12/1132819/the-download-ai-enhanced-cybercrime-and-secure-ai-assistants/)
+
+**📝 内容摘要：**
+This is today's edition of The Download, our weekday newsletter that provides a daily dose of what's going on in the world of technology. AI is already making online crimes easier. It could get much worse. Just as software engineers are using artificial intelligence to help write code and check for bugs, hackers are using these tools...
+
+---
+
+### 5. AI is already making online crimes easier. It could get much worse.
+
+**📊 优先级：** 85.0/100
+**🏷️ 分类：** 🔬 研究 & 论文 | 🌐 搜索 & 信息检索
+**📚 标签：** 
+**📅 发布时间：** Thu, 12 Feb 2026 11:00:00 +0000
+**✍️ 来源：** MIT Technology Review
+**🔗 原文链接：** [AI is already making online crimes easier. It could get much worse.](https://www.technologyreview.com/2026/02/12/1132386/ai-already-making-online-swindles-easier/)
+
+**📝 内容摘要：**
+Anton Cherepanov is always on the lookout for something interesting. And in late August last year, he spotted just that. It was a file uploaded to VirusTotal, a site cybersecurity researchers like him use to analyze submissions for potential viruses and other types of malicious software, often known as malware. On the surface it seemed...
+
+---
+
+### 6. Why EVs are gaining ground in Africa
+
+**📊 优先级：** 85.0/100
+**🏷️ 分类：** 📰 综合 AI 资讯
+**📚 标签：** 
+**📅 发布时间：** Thu, 12 Feb 2026 11:00:00 +0000
+**✍️ 来源：** MIT Technology Review
+**🔗 原文链接：** [Why EVs are gaining ground in Africa](https://www.technologyreview.com/2026/02/12/1132790/evs-progress-africa/)
+
+**📝 内容摘要：**
+EVs are getting cheaper and more common all over the world. But the technology still faces major challenges in some markets, including many countries in Africa. Some regions across the continent still have limited grid and charging infrastructure, and those that do have widespread electricity access sometimes face reliability issues—a problem for EV owners, who...
+
+---
+
+### 7. What’s next for Chinese open-source AI
+
+**📊 优先级：** 85.0/100
+**🏷️ 分类：** 🧠 推理 & 认知
+**📚 标签：** 
+**📅 发布时间：** Thu, 12 Feb 2026 10:00:00 +0000
+**✍️ 来源：** MIT Technology Review
+**🔗 原文链接：** [What’s next for Chinese open-source AI](https://www.technologyreview.com/2026/02/12/1132811/whats-next-for-chinese-open-source-ai/)
+
+**📝 内容摘要：**
+MIT Technology Review’s What’s Next series looks across industries, trends, and technologies to give you a first look at the future. You can read the rest of them&#160;here. The past year has marked a turning point for Chinese AI. Since DeepSeek released its R1 reasoning model in January 2025, Chinese companies have repeatedly delivered AI...
+
+---
+
+### 8. IBM will hire your entry-level talent in the age of AI
+
+**📊 优先级：** 80.0/100
+**🏷️ 分类：** 📰 综合 AI 资讯
+**📚 标签：** 
+**📅 发布时间：** Thu, 12 Feb 2026 23:23:17 +0000
+**✍️ 来源：** TechCrunch AI
+**🔗 原文链接：** [IBM will hire your entry-level talent in the age of AI](https://techcrunch.com/2026/02/12/ibm-will-hire-your-entry-level-talent-in-the-age-of-ai/)
+
+**📝 内容摘要：**
+IBM plans to triple its entry-level hiring in the U.S. in 2026, but these jobs will have different tasks than in previous years.
+
+---
+
+### 9. Anthropic raises another $30B in Series G, with a new value of $380B
+
+**📊 优先级：** 80.0/100
+**🏷️ 分类：** 🎯 企业 & 商业应用 | 🎨 生成式 AI & 创意
+**📚 标签：** @openai @anthropic #Claude
 **📅 发布时间：** Thu, 12 Feb 2026 20:18:37 +0000
 **✍️ 来源：** TechCrunch AI
 **🔗 原文链接：** [Anthropic raises another $30B in Series G, with a new value of $380B](https://techcrunch.com/2026/02/12/anthropic-raises-another-30-billion-in-series-g-with-a-new-value-of-380-billion/)
@@ -66,94 +159,31 @@ The infusion of funding for the AI startup takes place as it is vying for custom
 
 ---
 
+### 10. xAI lays out interplanetary ambitions in public all-hands
+
+**📊 优先级：** 80.0/100
+**🏷️ 分类：** 💻 开发工具 & 框架
+**📚 标签：** @tesla
+**📅 发布时间：** Wed, 11 Feb 2026 23:29:08 +0000
+**✍️ 来源：** TechCrunch AI
+**🔗 原文链接：** [xAI lays out interplanetary ambitions in public all-hands](https://techcrunch.com/2026/02/11/xai-lays-out-interplanetary-ambitions-in-public-all-hands/)
+
+**📝 内容摘要：**
+On Wednesday, xAI took the rare step of publishing its full 45-minute all-hands presentation to the X platform, making it widely available.
+
+---
+
 
 
 ---
 
 ## 📰 更多资讯
 
-### 6. Spotify says its best developers haven’t written a line of code since December, thanks to AI
+### 11. AI inference startup Modal Labs in talks to raise at $2.5B valuation, sources say
 
-**📅 发布时间：** Thu, 12 Feb 2026 18:30:12 +0000
-**✍️ 来源：** TechCrunch AI
-**🔗 原文链接：** [Spotify says its best developers haven’t written a line of code since December, thanks to AI](https://techcrunch.com/2026/02/12/spotify-says-its-best-developers-havent-written-a-line-of-code-since-december-thanks-to-ai/)
-
-Spotify credits Claude Code and its internal AI system Honk with speeding up development.
-
----
-
-### 7. A new version of OpenAI’s Codex is powered by a new dedicated chip
-
-**📅 发布时间：** Thu, 12 Feb 2026 18:00:00 +0000
-**✍️ 来源：** TechCrunch AI
-**🔗 原文链接：** [A new version of OpenAI’s Codex is powered by a new dedicated chip](https://techcrunch.com/2026/02/12/a-new-version-of-openais-codex-is-powered-by-a-new-dedicated-chip/)
-
-OpenAI calls the new coding tool the "first milestone" in its relationship with the chipmaker.
-
----
-
-### 8. The Download: AI-enhanced cybercrime, and secure AI assistants
-
-**📅 发布时间：** Thu, 12 Feb 2026 13:10:00 +0000
-**✍️ 来源：** MIT Technology Review
-**🔗 原文链接：** [The Download: AI-enhanced cybercrime, and secure AI assistants](https://www.technologyreview.com/2026/02/12/1132819/the-download-ai-enhanced-cybercrime-and-secure-ai-assistants/)
-
-This is today's edition of The Download, our weekday newsletter that provides a daily dose of what's going on in the world of technology. AI is alread...
-
----
-
-### 9. AI is already making online crimes easier. It could get much worse.
-
-**📅 发布时间：** Thu, 12 Feb 2026 11:00:00 +0000
-**✍️ 来源：** MIT Technology Review
-**🔗 原文链接：** [AI is already making online crimes easier. It could get much worse.](https://www.technologyreview.com/2026/02/12/1132386/ai-already-making-online-swindles-easier/)
-
-Anton Cherepanov is always on the lookout for something interesting. And in late August last year, he spotted just that. It was a file uploaded to Vir...
-
----
-
-### 10. Why EVs are gaining ground in Africa
-
-**📅 发布时间：** Thu, 12 Feb 2026 11:00:00 +0000
-**✍️ 来源：** MIT Technology Review
-**🔗 原文链接：** [Why EVs are gaining ground in Africa](https://www.technologyreview.com/2026/02/12/1132790/evs-progress-africa/)
-
-EVs are getting cheaper and more common all over the world. But the technology still faces major challenges in some markets, including many countries ...
-
----
-
-### 11. What’s next for Chinese open-source AI
-
-**📅 发布时间：** Thu, 12 Feb 2026 10:00:00 +0000
-**✍️ 来源：** MIT Technology Review
-**🔗 原文链接：** [What’s next for Chinese open-source AI](https://www.technologyreview.com/2026/02/12/1132811/whats-next-for-chinese-open-source-ai/)
-
-MIT Technology Review’s What’s Next series looks across industries, trends, and technologies to give you a first look at the future. You can read the ...
-
----
-
-### 12. Google identifies state-sponsored hackers using AI in attacks
-
-**📅 发布时间：** Thu, 12 Feb 2026 09:00:00 +0000
-**✍️ 来源：** AI News
-**🔗 原文链接：** [Google identifies state-sponsored hackers using AI in attacks](https://www.artificialintelligence-news.com/news/state-sponsored-hackers-ai-cyberattacks-google/)
-
-State-sponsored hackers are exploiting highly-advanced tooling to accelerate their particular flavours of cyberattacks, with threat actors from Iran, ...
-
----
-
-### 13. xAI lays out interplanetary ambitions in public all-hands
-
-**📅 发布时间：** Wed, 11 Feb 2026 23:29:08 +0000
-**✍️ 来源：** TechCrunch AI
-**🔗 原文链接：** [xAI lays out interplanetary ambitions in public all-hands](https://techcrunch.com/2026/02/11/xai-lays-out-interplanetary-ambitions-in-public-all-hands/)
-
-On Wednesday, xAI took the rare step of publishing its full 45-minute all-hands presentation to the X platform, making it widely available.
-
----
-
-### 14. AI inference startup Modal Labs in talks to raise at $2.5B valuation, sources say
-
+**📊 优先级：** 80.0/100
+**🏷️ 分类：** 🎯 企业 & 商业应用 | 🎨 生成式 AI & 创意
+**📚 标签：** 
 **📅 发布时间：** Wed, 11 Feb 2026 22:48:35 +0000
 **✍️ 来源：** TechCrunch AI
 **🔗 原文链接：** [AI inference startup Modal Labs in talks to raise at $2.5B valuation, sources say](https://techcrunch.com/2026/02/11/ai-inference-startup-modal-labs-in-talks-to-raise-at-2-5b-valuation-sources-say/)
@@ -162,8 +192,11 @@ General Catalyst is in talks to lead the round for the four-year-old startup, ac
 
 ---
 
-### 15. OpenAI disbands mission alignment team
+### 12. OpenAI disbands mission alignment team
 
+**📊 优先级：** 80.0/100
+**🏷️ 分类：** 🎯 企业 & 商业应用 | 🛡️ 安全 & 伦理
+**📚 标签：** @openai
 **📅 发布时间：** Wed, 11 Feb 2026 21:57:18 +0000
 **✍️ 来源：** TechCrunch AI
 **🔗 原文链接：** [OpenAI disbands mission alignment team](https://techcrunch.com/2026/02/11/openai-disbands-mission-alignment-team-which-focused-on-safe-and-trustworthy-ai-development/)
@@ -172,28 +205,50 @@ The team's leader has been given a new role as OpenAI's chief futurist, while th
 
 ---
 
-### 16. Is a secure AI assistant possible?
+### 13. Musk needed a new vision for SpaceX and xAI. He landed on Moonbase Alpha.
 
-**📅 发布时间：** Wed, 11 Feb 2026 20:08:35 +0000
-**✍️ 来源：** MIT Technology Review
-**🔗 原文链接：** [Is a secure AI assistant possible?](https://www.technologyreview.com/2026/02/11/1132768/is-a-secure-ai-assistant-possible/)
+**📊 优先级：** 70.0/100
+**🏷️ 分类：** 📰 综合 AI 资讯
+**📚 标签：** @tesla #计算机视觉
+**📅 发布时间：** Thu, 12 Feb 2026 22:10:55 +0000
+**✍️ 来源：** TechCrunch AI
+**🔗 原文链接：** [Musk needed a new vision for SpaceX and xAI. He landed on Moonbase Alpha.](https://techcrunch.com/2026/02/12/musk-needed-a-new-vision-for-spacex-and-xai-he-landed-on-moonbase-alpha/)
 
-AI agents are a risky business. Even when stuck inside the chatbox window, LLMs will make mistakes and behave badly. Once they have tools that they ca...
-
----
-
-### 17. Barclays bets on AI to cut costs and boost returns
-
-**📅 发布时间：** Wed, 11 Feb 2026 10:00:00 +0000
-**✍️ 来源：** AI News
-**🔗 原文链接：** [Barclays bets on AI to cut costs and boost returns](https://www.artificialintelligence-news.com/news/barclays-bets-on-ai-to-cut-costs-and-boost-returns/)
-
-Barclays recorded a 12 % jump in annual profit for 2025, reporting £9.1 billion in earnings before tax, up from £8.1 billion a year earlier. The bank ...
+"I really want to see a mass driver on the moon that is shooting AI satellites into deep space."
 
 ---
 
-### 18. How insurance leaders use agentic AI to cut operational costs
+### 14. Spotify says its best developers haven’t written a line of code since December, thanks to AI
 
+**📊 优先级：** 70.0/100
+**🏷️ 分类：** 🤖 大模型 & 基础模型 | 💻 开发工具 & 框架
+**📚 标签：** @anthropic #Claude
+**📅 发布时间：** Thu, 12 Feb 2026 18:30:12 +0000
+**✍️ 来源：** TechCrunch AI
+**🔗 原文链接：** [Spotify says its best developers haven’t written a line of code since December, thanks to AI](https://techcrunch.com/2026/02/12/spotify-says-its-best-developers-havent-written-a-line-of-code-since-december-thanks-to-ai/)
+
+Spotify credits Claude Code and its internal AI system Honk with speeding up development.
+
+---
+
+### 15. A new version of OpenAI’s Codex is powered by a new dedicated chip
+
+**📊 优先级：** 70.0/100
+**🏷️ 分类：** 💻 开发工具 & 框架
+**📚 标签：** @openai
+**📅 发布时间：** Thu, 12 Feb 2026 18:00:00 +0000
+**✍️ 来源：** TechCrunch AI
+**🔗 原文链接：** [A new version of OpenAI’s Codex is powered by a new dedicated chip](https://techcrunch.com/2026/02/12/a-new-version-of-openais-codex-is-powered-by-a-new-dedicated-chip/)
+
+OpenAI calls the new coding tool the "first milestone" in its relationship with the chipmaker.
+
+---
+
+### 16. How insurance leaders use agentic AI to cut operational costs
+
+**📊 优先级：** 70.0/100
+**🏷️ 分类：** 🤬 智能体 & 多智能体 | 🔬 研究 & 论文
+**📚 标签：** #AI智能体
 **📅 发布时间：** Wed, 11 Feb 2026 09:29:47 +0000
 **✍️ 来源：** AI News
 **🔗 原文链接：** [How insurance leaders use agentic AI to cut operational costs](https://www.artificialintelligence-news.com/news/how-insurance-leaders-use-agentic-ai-to-cut-operational-costs/)
@@ -202,8 +257,63 @@ Agentic AI offers insurance leaders a path to scalable efficiency as the sector 
 
 ---
 
-### 19. Red Hat unifies AI and tactical edge deployment for UK MOD
+### 17. Chinese hyperscalers and industry-specific agentic AI
 
+**📊 优先级：** 70.0/100
+**🏷️ 分类：** 🤬 智能体 & 多智能体 | 🎯 企业 & 商业应用
+**📚 标签：** #AI智能体
+**📅 发布时间：** Tue, 10 Feb 2026 11:20:00 +0000
+**✍️ 来源：** AI News
+**🔗 原文链接：** [Chinese hyperscalers and industry-specific agentic AI](https://www.artificialintelligence-news.com/news/chinese-hyperscalers-and-industry-specific-chinas-agentic-ai/)
+
+Major Chinese technology companies Alibaba, Tencent, and Huawei are pursuing agentic AI (systems that can execute multi-step tasks autonomously and in...
+
+---
+
+### 18. Agentic AI in healthcare: How Life Sciences marketing could achieve $450B in value by 2028
+
+**📊 优先级：** 70.0/100
+**🏷️ 分类：** 🤖 大模型 & 基础模型 | 🤬 智能体 & 多智能体
+**📚 标签：** @google #Gemini #AI智能体
+**📅 发布时间：** Tue, 10 Feb 2026 10:00:00 +0000
+**✍️ 来源：** AI News
+**🔗 原文链接：** [Agentic AI in healthcare: How Life Sciences marketing could achieve $450B in value by 2028](https://www.artificialintelligence-news.com/news/agentic-ai-healthcare-pharma-marketing-450b-value-2028/)
+
+Agentic AI in healthcare is graduating from answering prompts to autonomously executing complex marketing tasks – and life sciences companies are bett...
+
+---
+
+### 19. Google identifies state-sponsored hackers using AI in attacks
+
+**📊 优先级：** 65.0/100
+**🏷️ 分类：** 🤖 大模型 & 基础模型 | 💻 开发工具 & 框架
+**📚 标签：** @google #Gemini
+**📅 发布时间：** Thu, 12 Feb 2026 09:00:00 +0000
+**✍️ 来源：** AI News
+**🔗 原文链接：** [Google identifies state-sponsored hackers using AI in attacks](https://www.artificialintelligence-news.com/news/state-sponsored-hackers-ai-cyberattacks-google/)
+
+State-sponsored hackers are exploiting highly-advanced tooling to accelerate their particular flavours of cyberattacks, with threat actors from Iran, ...
+
+---
+
+### 20. Barclays bets on AI to cut costs and boost returns
+
+**📊 优先级：** 65.0/100
+**🏷️ 分类：** 📰 综合 AI 资讯
+**📚 标签：** 
+**📅 发布时间：** Wed, 11 Feb 2026 10:00:00 +0000
+**✍️ 来源：** AI News
+**🔗 原文链接：** [Barclays bets on AI to cut costs and boost returns](https://www.artificialintelligence-news.com/news/barclays-bets-on-ai-to-cut-costs-and-boost-returns/)
+
+Barclays recorded a 12 % jump in annual profit for 2025, reporting £9.1 billion in earnings before tax, up from £8.1 billion a year earlier. The bank ...
+
+---
+
+### 21. Red Hat unifies AI and tactical edge deployment for UK MOD
+
+**📊 优先级：** 65.0/100
+**🏷️ 分类：** 💻 开发工具 & 框架 | 🎨 生成式 AI & 创意
+**📚 标签：** 
 **📅 发布时间：** Wed, 11 Feb 2026 09:00:00 +0000
 **✍️ 来源：** AI News
 **🔗 原文链接：** [Red Hat unifies AI and tactical edge deployment for UK MOD](https://www.artificialintelligence-news.com/news/red-hat-unifies-ai-tactical-edge-deployment-for-uk-mod/)
@@ -212,13 +322,29 @@ The UK Ministry of Defence (MOD) has selected Red Hat to architect a unified AI 
 
 ---
 
-### 20. Chinese hyperscalers and industry-specific agentic AI
+### 22. What AI can (and can’t) tell us about XRP in ETF-driven markets
 
-**📅 发布时间：** Tue, 10 Feb 2026 11:20:00 +0000
+**📊 优先级：** 65.0/100
+**🏷️ 分类：** 💻 开发工具 & 框架 | 🎨 生成式 AI & 创意
+**📚 标签：** 
+**📅 发布时间：** Mon, 09 Feb 2026 11:04:32 +0000
 **✍️ 来源：** AI News
-**🔗 原文链接：** [Chinese hyperscalers and industry-specific agentic AI](https://www.artificialintelligence-news.com/news/chinese-hyperscalers-and-industry-specific-chinas-agentic-ai/)
+**🔗 原文链接：** [What AI can (and can’t) tell us about XRP in ETF-driven markets](https://www.artificialintelligence-news.com/news/what-ai-can-and-cant-tell-us-about-xrp-in-etf-driven-markets/)
 
-Major Chinese technology companies Alibaba, Tencent, and Huawei are pursuing agentic AI (systems that can execute multi-step tasks autonomously and in...
+For a long time, cryptocurrency prices moved quickly. A headline would hit, sentiment would spike, and charts would react almost immediately. That pat...
+
+---
+
+### 23. Exclusive: Why are Chinese AI models dominating open-source as Western labs step back?
+
+**📊 优先级：** 65.0/100
+**🏷️ 分类：** 🔬 研究 & 论文 | 🌐 搜索 & 信息检索
+**📚 标签：** @openai @google @anthropic #Claude
+**📅 发布时间：** Mon, 09 Feb 2026 11:00:00 +0000
+**✍️ 来源：** AI News
+**🔗 原文链接：** [Exclusive: Why are Chinese AI models dominating open-source as Western labs step back?](https://www.artificialintelligence-news.com/news/chinese-ai-models-175k-unprotected-systems-western-retreat/)
+
+Because Western AI labs&#160;won't—or&#160;can't—anymore. As OpenAI, Anthropic, and Google face mounting pressure to restrict their most powerful mode...
 
 ---
 
@@ -231,18 +357,27 @@ Major Chinese technology companies Alibaba, Tencent, and Huawei are pursuing age
 **新闻来源分布：**
 
 - TechCrunch AI: 10 条
+- AI News: 8 条
 - MIT Technology Review: 5 条
-- AI News: 5 条
+
+**热门主题分布：**
+
+- 💻 开发工具 & 框架: 8 条
+- 🎯 企业 & 商业应用: 6 条
+- 🎨 生成式 AI & 创意: 6 条
+- 🤖 大模型 & 基础模型: 5 条
+- 🤬 智能体 & 多智能体: 5 条
 
 ---
 
-**所有新闻按发布时间排序**
+**所有新闻按优先级评分排序（时效性+来源质量+内容完整性+相关性）**
 **数据来源：** 6 个主要 AI 新闻源
 **更新频率：** 每日 02:00 和 14:00
+**智能功能：** 自动分类、标签、质量评分
 
 ---
 
-*自动生成：AI News Bot (All-in-One) | 最后更新：2026-02-13 14:59:50*
+*自动生成：AI News Bot (Enhanced) | 最后更新：2026-02-13 15:05*
 
 
 
@@ -262,7 +397,7 @@ Major Chinese technology companies Alibaba, Tencent, and Huawei are pursuing age
 **摘要：**
 - ✅ TechCrunch AI News - 15 条新闻
 - ✅ arXiv 论文推荐 - 40 篇论文
-- 更新时间：2026-02-13 15:00
+- 更新时间：2026-02-13 15:05
 
 ---
 
@@ -307,4 +442,4 @@ Major Chinese technology companies Alibaba, Tencent, and Huawei are pursuing age
 
 ---
 
-*自动生成：AI News Bot | 最后更新：2026-02-13 15:00*
+*自动生成：AI News Bot | 最后更新：2026-02-13 15:05*
