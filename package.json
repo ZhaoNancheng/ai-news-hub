@@ -1,0 +1,13 @@
+{
+  "name": "ai-news-hub",
+  "version": "1.0.0",
+  "description": "每日 AI 新闻聚合平台",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.4"
+  }
+}
