@@ -1,6 +1,6 @@
 # 📰 AI News 最新资讯
 
-> **最后更新：** 2026-02-13 14:32
+> **最后更新：** 2026-02-13 14:33
 > **数据来源：** TechCrunch AI News RSS + arXiv.org
 
 ---
@@ -190,7 +190,7 @@ At least nine engineers, including two co-founders, have announced their exits f
 **摘要：**
 - ✅ TechCrunch AI News - 15 条新闻
 - ✅ arXiv 论文推荐 - 40 篇论文
-- 更新时间：2026-02-13 14:32
+- 更新时间：2026-02-13 14:33
 
 ---
 
@@ -235,4 +235,4 @@ At least nine engineers, including two co-founders, have announced their exits f
 
 ---
 
-*自动生成：AI News Bot | 最后更新：2026-02-13 14:32*
+*自动生成：AI News Bot | 最后更新：2026-02-13 14:33*
