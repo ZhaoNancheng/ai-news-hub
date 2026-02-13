@@ -27,16 +27,16 @@ mkdir -p "$NEWS_DIR"
 mkdir -p "$PAPERS_DIR"
 mkdir -p "$WEEKLY_DIR"
 
-echo "📰 Step 1: 抓取 TechCrunch AI 新闻..."
-python3.9 /data1/cc/vide-coding/scripts/fetch-techcrunch-news.py
+echo "📰 Step 1: 多源抓取 AI 新闻（All-in-One）..."
+python3.9 /data1/cc/vide-coding/ai-news-hub/scripts/fetch-multiple-sources.py
 
 echo ""
 echo "📚 Step 2: 抓取 arXiv AI 论文..."
-python3.9 /data1/cc/vide-coding/scripts/fetch-arxiv-papers.py
+python3.9 /data1/cc/vide-coding/ai-news-hub/scripts/fetch-arxiv-papers.py
 
 echo ""
 echo "📊 Step 3: 更新首页索引..."
-python3.9 /data1/cc/vide-coding/scripts/update-homepage.py
+python3.9 /data1/cc/vide-coding/ai-news-hub/scripts/update-homepage.py
 
 echo ""
 echo "🔄 Step 4: 推送到 GitHub + GitLab..."

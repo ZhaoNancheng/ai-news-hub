@@ -1,6 +1,6 @@
 # 📰 AI News 最新资讯
 
-> **最后更新：** 2026-02-13 14:59:50
+> **最后更新：** 2026-02-13 15:00
 > **数据来源：** TechCrunch AI News RSS + arXiv.org
 
 ---
@@ -262,7 +262,7 @@ Major Chinese technology companies Alibaba, Tencent, and Huawei are pursuing age
 **摘要：**
 - ✅ TechCrunch AI News - 15 条新闻
 - ✅ arXiv 论文推荐 - 40 篇论文
-- 更新时间：2026-02-13 14:59:50
+- 更新时间：2026-02-13 15:00
 
 ---
 
@@ -307,4 +307,4 @@ Major Chinese technology companies Alibaba, Tencent, and Huawei are pursuing age
 
 ---
 
-*自动生成：AI News Bot | 最后更新：2026-02-13 14:59:50*
+*自动生成：AI News Bot | 最后更新：2026-02-13 15:00*
