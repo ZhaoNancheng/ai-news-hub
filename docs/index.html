@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI News Hub - 每日聚合全球AI新闻、论文和工具</title>
+  <meta name="description" content="每日更新AI新闻、研究论文和热门推荐，保持知识前沿">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+      line-height: 1.6;
+      color: #1a1a1a;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem 1rem;
+    }
+
+    /* Hero Section */
+    .hero {
+      text-align: center;
+      padding: 4rem 2rem;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 20px;
+      margin-bottom: 3rem;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: 900;
+      margin-bottom: 0.5rem;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      color: transparent;
+    }
+
+    .hero p {
+      font-size: 1.25rem;
+      color: rgba(255, 255, 255, 0.9);
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .hero-stats {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      margin-top: 2rem;
+      flex-wrap: wrap;
+    }
+
+    .stat-box {
+      background: rgba(255, 255, 255, 0.15);
+      padding: 1.5rem 2rem;
+      border-radius: 16px;
+      text-align: center;
+      min-width: 150px;
+    }
+
+    .stat-number {
+      font-size: 2.5rem;
+      font-weight: 900;
+      margin-bottom: 0.5rem;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .stat-label {
+      font-size: 1rem;
+      color: rgba(255, 255, 255, 0.8);
+      font-weight: 500;
+    }
+
+    /* Section Styling */
+    .section {
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 20px;
+      padding: 3rem;
+      margin-bottom: 3rem;
+    }
+
+    .section-header {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    .section-icon {
+      font-size: 2.5rem;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      width: 60px;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 16px;
+    }
+
+    .section-title {
+      font-size: 2rem;
+      font-weight: 700;
+      color: #1a1a1a;
+      margin: 0;
+    }
+
+    .section-subtitle {
+      font-size: 1.125rem;
+      color: rgba(255, 255, 255, 0.7);
+      font-weight: 500;
+    }
+
+    /* Content Cards */
+    .content-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.08);
+      border-radius: 16px;
+      padding: 2rem;
+      transition: all 0.3s ease;
+      border: 2px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+      border-color: rgba(255, 255, 255, 0.2);
+    }
+
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1rem;
+      padding-bottom: 1rem;
+      border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .card-title {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: #1a1a1a;
+      margin: 0;
+    }
+
+    .card-meta {
+      font-size: 0.875rem;
+      color: rgba(255, 255, 255, 0.6);
+    }
+
+    .card-content {
+      color: rgba(255, 255, 255, 0.8);
+      line-height: 1.8;
+    }
+
+    .card-content h3 {
+      font-size: 1.125rem;
+      font-weight: 600;
+      margin-bottom: 0.75rem;
+      color: #1a1a1a;
+    }
+
+    .card-content ul {
+      margin: 1rem 0;
+      padding-left: 1.5rem;
+    }
+
+    .card-content li {
+      margin-bottom: 0.5rem;
+      color: rgba(255, 255, 255, 0.7);
+    }
+
+    .card-link {
+      display: inline-block;
+      margin-top: 1.5rem;
+      padding: 0.75rem 1.5rem;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: 600;
+      transition: all 0.3s ease;
+    }
+
+    .card-link:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+    }
+
+    /* News Items */
+    .news-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .news-item {
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 12px;
+      padding: 1.5rem;
+      margin-bottom: 1rem;
+      transition: all 0.3s ease;
+    }
+
+    .news-item:hover {
+      background: rgba(255, 255, 255, 0.08);
+    }
+
+    .news-date {
+      font-size: 0.875rem;
+      font-weight: 600;
+      color: #667eea;
+      margin-bottom: 0.5rem;
+    }
+
+    .news-content {
+      color: rgba(255, 255, 255, 0.8);
+    }
+
+    .news-content h3 {
+      font-size: 1.125rem;
+      font-weight: 600;
+      margin: 0 0 0.5rem 0;
+      color: #1a1a1a;
+    }
+
+    .news-link {
+      display: inline-block;
+      margin-top: 0.75rem;
+      color: #667eea;
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    .news-link:hover {
+      text-decoration: underline;
+    }
+
+    /* Trending Tags */
+    .trending-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .trending-item {
+      background: rgba(255, 255, 255, 0.08);
+      border-radius: 16px;
+      padding: 1.5rem;
+      border: 2px solid rgba(255, 255, 255, 0.1);
+      transition: all 0.3s ease;
+    }
+
+    .trending-item:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    .trending-badge {
+      display: inline-block;
+      padding: 0.25rem 0.75rem;
+      background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      color: white;
+      border-radius: 20px;
+      font-size: 0.75rem;
+      font-weight: 700;
+      margin-bottom: 0.75rem;
+    }
+
+    .trending-title {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: #1a1a1a;
+      margin-bottom: 0.75rem;
+    }
+
+    .trending-desc {
+      color: rgba(255, 255, 255, 0.7);
+      line-height: 1.6;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 3rem 1rem;
+      background: rgba(0, 0, 0, 0.05);
+      border-top: 2px solid rgba(255, 255, 255, 0.1);
+      margin-top: 4rem;
+    }
+
+    .footer-text {
+      color: rgba(255, 255, 255, 0.6);
+      font-size: 0.875rem;
+    }
+
+    .footer-link {
+      color: #667eea;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .footer-link:hover {
+      text-decoration: underline;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .hero-stats {
+        flex-direction: column;
+      gap: 1rem;
+      }
+
+      .stat-box {
+        min-width: 100%;
+      }
+
+      .content-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .trending-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Hero Section -->
+    <section class="hero">
+      <h1>AI News Hub</h1>
+      <p>每日聚合全球 AI 新闻、论文和工具，保持知识前沿</p>
+      <div class="hero-stats">
+        <div class="stat-box">
+          <div class="stat-number">100+</div>
+          <div class="stat-label">每日新闻</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-number">50+</div>
+          <div class="stat-label">arXiv 论文</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-number">8+</div>
+          <div class="stat-label">权威数据源</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Latest News Section -->
+    <section class="section">
+      <div class="section-header">
+        <div class="section-icon">📰</div>
+        <div>
+          <h2 class="section-title">每曰新闻</h2>
+          <p class="section-subtitle">每天 08:00 自动获取最新 AI 新闻、行业动态和产品更新</p>
+        </div>
+      </div>
+      <div class="content-grid">
+        <div class="card">
+          <div class="card-header">
+            <h3 class="card-title">📅 今日新闻</h3>
+          </div>
+          <div class="card-content">
+            <p style="color: rgba(255,255,255,0.8); margin-bottom: 1rem;">
+              <strong style="color: #1a1a1a;">2026年2月14日</strong><br>
+              15条最新AI研究论文，涵盖AI Agent、多模态、RAG、机器人学等领域
+            </p>
+            <a href="/latest-news" class="card-link">查看完整新闻 →</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <h3 class="card-title">📅 历史新闻</h3>
+          </div>
+          <div class="card-content">
+            <ul style="margin: 0; padding-left: 1.5rem;">
+              <li style="margin-bottom: 0.5rem;"><a href="/news/2026-02-14.md" style="color: #667eea;">2026-02-14 - AI研究论文</a></li>
+              <li style="margin-bottom: 0.5rem;"><a href="/news/2026-02-11-ai-research.md" style="color: #667eea;">2026-02-11 - AI研究论文</a></li>
+              <li style="margin-bottom: 0.5rem;"><a href="/news/2026-02-11-hot-news.md" style="color: #667eea;">2026-02-11 - 热点新闻</a></li>
+              <li style="margin-bottom: 0.5rem;"><a href="/news/2026-02-10.md" style="color: #667eea;">2026-02-10 - 综合资讯</a></li>
+              <li style="margin-bottom: 0.5rem;"><a href="/news/2026-02-08.md" style="color: #667eea;">2026-02-08 - 综合资讯</a></li>
+              <li style="margin-bottom: 0.5rem;"><a href="/news/2026-02-07.md" style="color: #667eea;">2026-02-07 - 综合资讯</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Research Frontiers Section -->
+    <section class="section">
+      <div class="section-header">
+        <div class="section-icon">🔬</div>
+        <div>
+          <h2 class="section-title">研究前沿</h2>
+          <p class="section-subtitle">追踪 AI Agent、多智能体系统、世界模型等前沿研究</p>
+        </div>
+      </div>
+      <div class="content-grid">
+        <div class="card">
+          <div class="card-header">
+            <h3 class="card-title">📅 今日研究</h3>
+          </div>
+          <div class="card-content">
+            <p style="color: rgba(255,255,255,0.8); margin-bottom: 1rem;">
+              <strong>2026年2月14日</strong><br>
+              15篇重要论文 | 研究方向：AI Agent、多模态、RAG、机器人学
+            </p>
+            <a href="/research" class="card-link">深入研究 →</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <h3 class="card-title">📚 历史研究</h3>
+          </div>
+          <div class="card-content">
+            <ul style="margin: 0; padding-left: 1.5rem;">
+              <li style="margin-bottom: 0.5rem;"><a href="/news/2026-02-14.md" style="color: #667eea;">2026-02-14 - 今日论文（15条）</a></li>
+              <li style="margin-bottom: 0.5rem;"><a href="/news/2026-02-11-ai-research.md" style="color: #667eea;">2026-02-11 - AI研究论文（9条）</a></li>
+              <li style="margin-bottom: 0.5rem;"><a href="/news/2026-02-10.md" style="color: #667eea;">2026-02-10 - AI研究论文（8条）</a></li>
+              <li style="margin-bottom: 0.5rem;"><a href="/news/2026-02-08.md" style="color: #667eea;">2026-02-08 - 综合资讯</a></li>
+              <li style="margin-bottom: 0.5rem;"><a href="/news/2026-02-07.md" style="color: #667eea;">2026-02-07 - 综合资讯</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trending Topics Section -->
+    <section class="section">
+      <div class="section-header">
+        <div class="section-icon">🔥</div>
+        <div>
+          <h2 class="section-title">热门推荐</h2>
+          <p class="section-subtitle">发现当前 AI 领域最热门的研究方向和讨论</p>
+        </div>
+      </div>
+      <div class="trending-grid">
+        <div class="trending-item">
+          <span class="trending-badge">⭐⭐⭐</span>
+          <h3 class="trending-title">2026超级碗AI广告大战</h3>
+          <p class="trending-desc">
+            Anthropic讽刺广告 vs OpenAI反击，单支广告费用高达700万美元。这标志着AI从技术圈走向主流市场。
+          </p>
+        </div>
+        <div class="trending-item">
+          <span class="trending-badge">⭐⭐</span>
+          <h3 class="trending-title">DeepSeek-R1深度推理模型</h3>
+          <p class="trending-desc">
+            中国开源深度推理模型的突破，在多个基准测试中表现优异，成为AI研究社区的热门话题。
+          </p>
+        </div>
+        <div class="trending-item">
+          <span class="trending-badge">⭐⭐</span>
+          <h3 class="trending-title">AI视频生成技术竞争</h3>
+          <p class="trending-desc">
+            Kling vs Sora vs Runway，视频生成领域竞争激烈，多家公司投入大量资源开发。
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p class="footer-text">
+        数据来源：<a href="https://arxiv.org" class="footer-link">arXiv</a>、
+        <a href="https://techcrunch.com" class="footer-link">TechCrunch</a>、
+        <a href="https://openai.com" class="footer-link">OpenAI</a>、
+        <a href="https://deepmind.com" class="footer-link">Google DeepMind</a>
+      </p>
+      <p class="footer-text">
+        整理工具：<a href="https://docs.openclaw.ai" class="footer-link">OpenClaw AI Assistant</a>
+      </p>
+      <p class="footer-text">
+        © 2026 AI News Hub | 最后更新：2026-02-14 08:01:25
+      </p>
+    </footer>
+  </div>
+</body>
+</html>
