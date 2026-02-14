@@ -11,17 +11,17 @@ hero:
   actions:
     - theme: brand
       text: 开始浏览
-      link: /latest-news
+      link: /industry
     - theme: alt
       text: GitHub
       link: https://github.com/ZhaoNancheng/ai-news-hub
 
 features:
-  - icon: 📰
-    title: 每日新闻
-    details: 每天 08:00 自动获取最新 AI 新闻、行业动态和产品更新
-    link: /latest-news
-    linkText: 查看新闻 →
+  - icon: 🏭
+    title: 行业动态
+    details: 每天 08:00 自动获取最新 AI 行业新闻、产品发布和融资动态
+    link: /industry
+    linkText: 查看动态 →
   - icon: 🔬
     title: 研究前沿
     details: 追踪 AI Agent、多智能体系统、世界模型等前沿研究

@@ -15,7 +15,7 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
-      { text: '每日新闻', link: '/latest-news' },
+      { text: '行业动态', link: '/industry' },
       { text: '研究前沿', link: '/research' },
       { text: '热门推荐', link: '/trending' },
     ],
@@ -25,7 +25,7 @@ export default defineConfig({
         {
           text: '核心板块',
           items: [
-            { text: '每日新闻', link: '/latest-news' },
+            { text: '行业动态', link: '/industry' },
             { text: '研究前沿', link: '/research' },
             { text: '热门推荐', link: '/trending' },
           ]
