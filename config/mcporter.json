@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "autoglm-asr-mcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "autoglm-asr-mcp"
+      ],
+      "env": {
+        "AUTOGLM_ASR_API_KEY": "3599cccd43fe44bea388ae5e130803e7.LCSSwaG6aPdmh1ks"
+      }
+    }
+  },
+  "imports": []
+}
